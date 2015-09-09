@@ -1,0 +1,36 @@
+<Topic>sport</Topic>
+<Date>10 11 2013</Date>
+<Title>Sport in 90 Seconds</Title>
+<Contents>in sports update adam scott wins australian pga championship australia heads rugby league world cup quarter finals beating ireland kevin pieterson another injury concern england ahead next weeks first ashes test </Contents>
+<Topic>english</Topic>
+<Date>10 11 2013</Date>
+<Title>Eden Hazard saves Chelsea with controversial penalty as Liverpool thrashes Fulham</Title>
+<Contents>a fiercely disputed th minute eden hazard penalty saw chelsea snatch   draw west bromwich albion sunday morning aedt preserve jose mourinhos unbeaten home record league games  the chelsea manager heading first home defeat  matches steven reid contentiously adjudged fouled ramires hazard held nerve amid angry west brom protests roll home equaliser samuel etoo put hosts front west brom hit back shane long stephane sessegnon take chelsea brink second consecutive league defeat following last weekends   loss newcastle united it penalty said mourinho i watched two three times clear penalty way clear free kick west brom scored second goal we missed chances end game penalty always difficult situation accept team winning go home see screens situation referee make mistake despite hazards equaliser chelsea slipped fourth place four points leader arsenal could move even clear wins manchester united monday morning mourinho restored hazard starting xi belgian attacking midfielder dropped mid week win schalke following late return unauthorised trip france the  year old seemed eager atone catalyst sides opener stroke half time low shot pushed west brom goalkeeper boaz myhill etoo embarrass dawdling liam ridgewell poking rebound home but chelsea led  minutes long outjumping john terry frank lampard head home equaliser petr cech pushed gareth mcauleys powerful header air things got worse chelsea th minute cech bore sizeable degree culpability allowing low shot sessegnon squirm beneath west brom manager steve clarke mourinhos former assistant looked destined enjoy famous victory former mentor referee andre marriner point spot ramires threw reid went anger disbelief visiting players it penalty   thats take said clarke thats five points team lost late decisions penalties it ridiculous take wasnt penalty  luis suarez star talent core ingredient work rate something trying throughout team  liverpool capitalised chelseas slip crushing fulham   anfield climb second place two points arsenal manager brendan rodgers reacted sides   defeat arsenal jettisoning experiment three man defence changes seemed positive effect hosts romped victory an goal fernando amorebieta martin skrtel header luis suarez effort put liverpool   inside  minutes suarez adding second goal th minute take tally league goals eight our appetite game outstanding said rodgers luis suarez star talent core ingredient work rate something trying throughout team new england call adam lallana impressed front watching national coach roy hodgson surprise package southampton climbed third table   win home hull city lallana called england squad alongside uncapped team mate jay rodriguez another southamptons england internationals rickie lambert tipped game home sides favour lamberts headed touch allowed morgan schneiderlin head southampton th minute lead  year old striker made   emphatic penalty lallana felled steve harper lallana added magnificent third eight minutes half time wriggling left hand channel beating harper cool finish steven davis completing victory yannick sagbo replied hull everton climbed fifth despite held   draw bottom club crystal palace leandro bacuna free kick libor kozak header gave aston villa   win home cardiff city in late game norwich city clambered relegation zone coming behind beat west ham united   goals gary hooper robert snodgrass leroy fer afp </Contents>
+<Topic>science</Topic>
+<Date>10 11 2013</Date>
+<Title>Air pollution from rubber tyres contributes to thousands of deaths annually</Title>
+<Contents>from electromagnetic waves nanoparticles theres lot day day lives rely cant actually see most harmless isnt including kind dust contributing thousands deaths every year </Contents>
+<Topic>golf</Topic>
+<Date>10 11 2013</Date>
+<Title>Adam Scott PGA Presentation</Title>
+<Contents>adam scott makes acceptance speech capturing australian pga royal pines </Contents>
+<Topic>winter</Topic>
+<Date>10 11 2013</Date>
+<Title>Winter Olympic torch goes on first ever spacewalk</Title>
+<Contents>a pair russian cosmonauts taken olympic torch open space first time part torch relay next years winter games sochi oleg kotov sergei ryazansky waved unlit torch torch outside international space station  kilometres earth </Contents>
+<Topic>storm</Topic>
+<Date>10 11 2013</Date>
+<Title>In pictures: Super Typhoon Haiyan devastates Philippines</Title>
+<Contents>scenes tragedy unfolding philippines information trickles areas worst hit super typhoon haiyan the typhoon  kilometre long front made landfall philippines friday winds kmh at least  people killed philippines officials fear death toll rise   </Contents>
+<Topic>storm</Topic>
+<Date>10 11 2013</Date>
+<Title>Super Typhoon Haiyan devastates Philippines</Title>
+<Contents>footage leyte province philippines shows powerful force super typhoon haiyan hit region devastation left behind rescuers central philippines counted least  people dead many injured day one powerful typhoons record ripped region </Contents>
+<Topic>cyclones</Topic>
+<Date>10 11 2013</Date>
+<Title>In pictures: Vietnam prepares for Super Typhoon Haiyan</Title>
+<Contents>as super typhoon haiyan leaves behind path destruction across philippines people vietnam preparing hit storm mass evacuations taken place central da nang quang ngai provinces according tuoi tre newspaper authorities relief organisations assisting residents evacuating protecting properties  </Contents>
+<Topic>storm</Topic>
+<Date>10 11 2013</Date>
+<Title>Super Typhoon Haiyan devastates Philippines</Title>
+<Contents>footage leyte province philippines shows powerful force super typhoon haiyan hit region devastation left behind rescuers central philippines counted least  people dead many injured day one powerful typhoons record ripped region </Contents>

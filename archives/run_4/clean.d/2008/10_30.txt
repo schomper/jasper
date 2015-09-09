@@ -1,0 +1,36 @@
+<Topic>state</Topic>
+<Date>30 10 2008</Date>
+<Title>Protesting firefighters banned from Qld Parliament sitting</Title>
+<Contents>matt wordsworth reports protesting firefighters barred entering cairns sittings qld parliament </Contents>
+<Topic>government</Topic>
+<Date>30 10 2008</Date>
+<Title>Indigenous jobs program launched</Title>
+<Contents>prime minister kevin rudd mining magnate andrew forrest launched program provide  jobs indigenous australians </Contents>
+<Topic>murder</Topic>
+<Date>30 10 2008</Date>
+<Title>Accused faces court over Sydney unit attack</Title>
+<Contents>a man accused sexually assaulting four people sydney home invasion led womans death remanded custody twenty six year old brendan david dennison charged murder chinese student the  year old died boyfriend fell  metres third floor balcony hunter street unit waterloo sunday afternoon her boyfriend  year old korean student remains hospital serious injuries police say couple trying get away dennison allegedly held two friends knifepoint hour dennison charged  offences including aggravated sexual assault he central local court morning magistrate allen moore told need bring court room he remanded custody face court december the  year olds mother arrived sydney airport picked police escort outside court daniel sheen represents chinese consulate says womans mother lost everything sichuan earthquake earlier year she lost business lost home shes lost child said her lawyer says funeral arranged sydney later date </Contents>
+<Topic>welfare</Topic>
+<Date>30 10 2008</Date>
+<Title>Tasmania labelled a welfare state</Title>
+<Contents>the tasmanian chamber commerce industry believes state government grossly misinterpreted intention review taxation expenditure the treasurer labelled chambers review fundamentally flawed the chamber commerce industry believes tasmania reliant commonwealth funding it found last eight years tasmanians received welfare theyve paid tax despite receiving billions dollars federal assistance the treasurer michael aird says review could compromise hundreds millions dollars funding state the fact premier nsw victoria youd rubbing hands glee said but chambers chairman andrew scobie dismisses view to suggest nsw victorian queensland governments unaware current relationship tasmania rest commonwealth would delusional mr scobie said he says review recommends economic reform tasmania prosper lose </Contents>
+<Topic>mining</Topic>
+<Date>30 10 2008</Date>
+<Title>SA mine jobs go in global downturn</Title>
+<Contents>a mining services company says global financial crisis forced make  full time south australian workers redundant boart longyears asia pacific vice president kent hoots says redundancies manufacturing production sectors based mitchell park adelaide they notified today effective immediately said theyll paid vacations benefit package severance package assessed redundancies theyll paid number years service in  employees made redundant south australia canada us boart longyear says still employ  staff drilling services administrative operations mitchell park olympic dam outback sa the state opposition says loss  jobs indication sa government investing heavily mining industry opposition mineral resources spokesman david ridgway says government abandoned export areas food beverage production we tremendous growth brown olsen governments industries stagnated said the rann government closed whole range overseas export development offices   theyve gambled eggs mining defence basket ignored rest economy </Contents>
+<Topic>grain</Topic>
+<Date>30 10 2008</Date>
+<Title>Low spring rainfall dashes harvest hopes</Title>
+<Contents>victorias peak farming body says expecting mallees grain harvest begin earnest next week september october delivered record near record low rainfall totals across state devastating high hopes years grain harvest the victorian farmers federations geoff nalder says prospects mallee mixed north ouyen poor prospects said south ouyen sea lake even back north towards managatang piangil theres reasonable prospects south sea lake heading towards birchip charlton wycheproof therell low yields lot country potentially yields </Contents>
+<Topic>viticulture</Topic>
+<Date>30 10 2008</Date>
+<Title>Winemakers face barrel price jump</Title>
+<Contents>south west western australian winemakers anticipating wine barrel prices year reach highest levels ever seen australia the barrels expected jump  per cent price already costing  pemberton winemaker patrick couts blamed  per cent increase french oak timber prices combined significant fall value australian dollar he says cost vineyard thousands dollars if euro stays stage looking buying  barrels really barrels went  barrel talking  cost increase year purely based mainly currency little bit timber price increase coming said </Contents>
+<Topic>assault</Topic>
+<Date>30 10 2008</Date>
+<Title>Police hunt man over nightclub bashing</Title>
+<Contents>police searching man believe responsible serious assault north queensland weekend a  year old man serious facial injuries allegedly assaulted unknown man mackay nightclub the mans described caucasian slim build shoulder length surfy hair wearing beige three quarter pants dark brown t shirt senior constable kerry holl says limited information identity man the assault took place section nightclub internal security footage wasnt clear footage leaving clear relying moment constable holl said anyone information asked contact mackay police crime stoppers </Contents>
+<Topic>health</Topic>
+<Date>30 10 2008</Date>
+<Title>Funding boost for MJD research</Title>
+<Contents>the federal indigenous affairs minister jenny macklin committed  million research machado joseph disease mjd the neuro degenerative condition passed genetically although cases found throughout world cluster cases arnhem land community groote eylandt intrigued scientists health specialists years the funding go territorys mjd foundation matched another million dollars andiliyakwa land council the foundations libby morgan welcomes funding boost we look research enables people better quality life terms delaying onset symptoms perhaps even look research help us find cure research helps us enable people function better things like sleep investigations speech swallowing investigations kinds practical daily living things </Contents>

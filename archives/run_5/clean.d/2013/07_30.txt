@@ -1,0 +1,24 @@
+<Topic>weather</Topic>
+<Date>30 07 2013</Date>
+<Title>Weather in 90 Seconds</Title>
+<Contents>in update the national weather forecast </Contents>
+<Topic>crime</Topic>
+<Date>30 07 2013</Date>
+<Title>Academic discusses ACC's latest snapshot of organised crime</Title>
+<Contents>dr mike pottenger university melbourne discusses latest report australian crime commission estimates organised crime costs australia  billion year </Contents>
+<Topic>activism</Topic>
+<Date>30 07 2013</Date>
+<Title>RAA says five-star rating system exposes South Australian country service stations which inflate fuel prices</Title>
+<Contents>the raa said new rating system would put regional service stations scrutiny passing savings motorists the motoring organisation launched five star rating system compare retailers behaviour time fuel stations naracoorte clare port pirie kadina renmark rated among best south australia past year passing savings stations port augusta coober pedy rated worst senior analyst chris west said regional motorists paying we concerned creeping margins occurring within country south australia particularly past  months said some centres actually doubled gross margin essentially reaping extra  million regional south australian motorists </Contents>
+<Topic>wind</Topic>
+<Date>30 07 2013</Date>
+<Title>Concerns raised at wind farm hearing</Title>
+<Contents>residents raised concerns hearing proposed wind farm wellington praised remaining composed well behaved the planning assessment commission pac held forum infigin energys bodangora wind project yesterday around  groups individuals spoke the proposal build  turbines given approval state planning department still needs get nod pac wellington mayor rod buhr says majority speakers opposed development common concerns raised noise perceived health risks associated wind farms also another fairly big issue possible devaluation properties affected footprint wind farms so three key sort issues people opposed project raising he says hearing lasted almost four hours i happy people remained composed wasnt argy bargy argument anything like people certainly opportunity express feelings many people conducted very know good manor </Contents>
+<Topic>irrigation</Topic>
+<Date>30 07 2013</Date>
+<Title>Irrigators switch watering systems to save power</Title>
+<Contents>rising power costs forced irrigators southern nsw revert less efficient ways watering crops darlington point irrigator matthew stott admits drip irrigation uses less water power run longer viable mr stott produces winegrapes almonds popcorn cotton says growers torn saving money saving water theres doubt drip efficient way irrigate terms water efficiency give plant want daily basis youre getting watering watering patterns weekly cycle flood irrigation but price power energy general pricing sorts systems right now cant afford mr stott says pumping costs bore water farm jumped  per megalitre three years ago  per megalitre cotton australia peak body representing cotton growers hopes secure better pricing deal farmers joining forces nsw irrigators council its carrying trial states largest electricity users irrigation farms view negotiating group discount arrangements electricity suppliers cotton australia says also funding research projects cotton research development corporation looking alternative energy sources pump optimisation energy efficiency practices farms  </Contents>
+<Topic>business</Topic>
+<Date>30 07 2013</Date>
+<Title>Global markets finish flat as </Title>
+<Contents>global markets saw mostly flat finish trade overnight investors wait key data announcements this week offer clues state us economy release key june quarter growth figures well monthly labour report there also monetary policy announcements due us federal reserve european central bank on wall street dow jones industrial average lost  per cent  the sp  retreated  per cent six points  weighing trade data showing fewer americans bought homes last month economists saying sign rising mortgage rates beginning restrain housing market the index pending sales dropped  per cent  june trimming back seven year high seen month according figures national association realtors across atlantic londons ftse  barely moved adding five points finish  on continent frances cac unmoved germanys dax rose  per cent shares britains second biggest bank barclays fell sharply bank moves raise us billion rights offering adhere new capital requirements reported financial times australian investors keeping keen ear speech rba governor glenn stevens set deliver lunchtime sydney the market set flat open spi   points  aest the australian dollar fallen slightly late yesterday buying  us cents aest it also buying  euro cents  british pence  japanese yen the gold price slipped investors took profits three weeks gains closed us ounce west texas crude closed ended trade slightly lower us barrel singapores tapis crude worth us barrel </Contents>

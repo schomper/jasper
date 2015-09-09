@@ -1,0 +1,28 @@
+<Topic>UNDEFINED</Topic>
+<Date>12 12 2011</Date>
+<Title>Busy Mechanic</Title>
+<Contents>Source ABC News  Duration</Contents>
+<Topic>cricket</Topic>
+<Date>12 12 2011</Date>
+<Title>ABC Sport</Title>
+<Contents>ABC Sport </Contents>
+<Topic>golf</Topic>
+<Date>12 12 2011</Date>
+<Title>Donald is top golf earner in 2011</Title>
+<Contents>Luke Donald finished 2011 top earner golf Europe United States </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>12 12 2011</Date>
+<Title>More rain over the weekend in Queensland.</Title>
+<Contents>Heavy rainfall central Queensland saw good tallies damage homes farm equipment meanwhile southern Queensland rain seen flood warnings several river systems Source ABC News  Duration</Contents>
+<Topic>golf</Topic>
+<Date>12 12 2011</Date>
+<Title>Donald lands historic double</Title>
+<Contents>Luke Donald top world ways one becoming first player win money list crowns Europe United States Rival Rory McIlroy needed win Dubai World Championship deny Englishman Donald chance topping order merit Europe young Northern Irishman ended joint 11th place 9 under 279 closing 71 The 34 year old Donald summit world rankings 27 weeks already clinched US Tours money list crown October I couldnt see Rorys name leaderboard I kind knew double mine 13th hole Donald told reporters shooting 66 272 take third place behind Dubai winner Alvaro Quiros Spain 269  I knew I made history last six holes kind surreal added winner years WGC Accenture Match Play Championship Arizona PGA Championship Wentworth Scottish Open Inverness Disney Classic Florida The pressure went away I able enjoy myself smiles enjoy walk I guess thats about added Donald McIlroy feeling tired drained suffering viral infection couple weeks said simply tournament far end hectic playing schedule I couldnt get anything going I needed to I played nine hole stretch last two Friday first seven Saturday five par Thats tournament got away me said McIlroy The world number two said would skip next weeks inaugural Thailand Golf Championship last event season Asian Tour I cant wait weeks off added McIlroy People telling go another flight sleeping patterns messed up Next week would big struggle too The doctor told last night matter bad Im feeling Id even worse I played next week As Donald basking glow campaign even dare dream turn year Its something always hope believe possible said But believing totally different There lot lean years I wasnt winning Youve got keep believing point its going time Donald still next weeks Australian Masters play competitive year done Donald asked father died month ago would reacted success He popped head times today especially 13th hole Englishman replied I remembered I think would proud me Im sure would given big hug Reuters </Contents>
+<Topic>disasters</Topic>
+<Date>12 12 2011</Date>
+<Title>Storms pummel central Qld</Title>
+<Contents>Central Queensland mopping wild storms battered region overnight Heavy rain 100 millimetres fell areas winds 98 kilometres hour recorded Rockhampton Airport yesterday afternoon The Boyne Dawson rivers reached minor flood levels Ivan Shepardson says lot damage around property near Biloela We three big wattle trees blown track said I got home I thought gee neighbours house doesnt look real good roofs completely gone it Neighbour next door us tree car I dont think lot damage Ergon Energys Bob Pleash says storms cut power 5000 homes Rockhampton area Very severe wind obviously lot rainfall intense lightning thunder  one main high voltage lines Egans Hill South Rockhampton substation brought due lightning strike disrupted customers said </Contents>
+<Topic>wnbl</Topic>
+<Date>12 12 2011</Date>
+<Title>WNBL Round 11 MVP - Lauren King</Title>
+<Contents>Sydney Unis Lauren King instrumental sides win Canberra Round 10 WNBL game caught Grandstands Rachael Sporn </Contents>

@@ -1,0 +1,28 @@
+<Topic>australian</Topic>
+<Date>10 08 2009</Date>
+<Title>Geelong celebrates 150</Title>
+<Contents>Geelong Football Club celebrated 150th year gala dinner last night surprise appearance reclusive star Gary Ablett senior </Contents>
+<Topic>earthquake</Topic>
+<Date>10 08 2009</Date>
+<Title>Tokyo at risk from severe earthquake</Title>
+<Contents>Tokyo shaken another earthquake seismologists say 70 percent chance catastrophic earthquake Japanese capital Tokyo within next 20 years </Contents>
+<Topic>murder</Topic>
+<Date>10 08 2009</Date>
+<Title>Good Friday murder accused pleads not guilty</Title>
+<Contents>A 36 year old man accused murdering another man Good Friday last year pleaded guilty Aaron John Willetts charged murdering Fredrick Doldissen 67 appeared Sydney Supreme Court Friday arraignment He stand trial Broken Hill November In court news Ryan Gurney 28 stood arraignment Sydney next month charge murdering Mr Doldissen Meanwhile Damien Charles Bugmy due face Sydney Supreme Court September charged murder woman Ivanhoe June last year </Contents>
+<Topic>rail</Topic>
+<Date>10 08 2009</Date>
+<Title>Stopworks to affect tram and overpass projects</Title>
+<Contents>Adelaides train tram electricians planning stopwork meetings week pay dispute TransAdelaide They four hour stoppages affecting services work South Road overpass tramline extension projects Simon Pisoni Electrical Trades Union says workers want pay rise 125 week Were getting anywhere The guys pretty patient last stopwork meeting Tuesday last week made perfectly clear theyve enough want step industrial campaign said </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>10 08 2009</Date>
+<Title></Title>
+<Contents>Source ABC News  Duration 4sec</Contents>
+<Topic>UNDEFINED</Topic>
+<Date>10 08 2009</Date>
+<Title>Interview: Stirling Mortlock</Title>
+<Contents>Wallabies skipper Stirling Mortlock says unlikely play part years Tri Nations due injury Source ABC News  Duration</Contents>
+<Topic>tourism</Topic>
+<Date>10 08 2009</Date>
+<Title>Coral bleaching report 'no surprise'</Title>
+<Contents>The Queensland Tourism Industry Council QTIC says surprised report showing economic cost coral bleaching Great Barrier Reef would approach 40 billion The Oxford Economics report also found 50 per cent tourists would normally visit reef would stay away Queensland bleaching permanent QTIC chief executive Daniel Gschwind says environmental agencies reef operators important role play protecting reef The Barrier Reef great ecological asset also very important part economic base every reason keep continuing look reef manage well make sure reef stays one worlds best   best   managed reef said Mr Gschwind says reports findings come surprise This study confirms quality coral quality dive quality snorkelling attractions very important part brings people Queensland brings people Australia said We strong interest tourism industry continue efforts make sure operate efficiently </Contents>

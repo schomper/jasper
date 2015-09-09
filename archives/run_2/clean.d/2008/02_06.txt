@@ -1,0 +1,40 @@
+<Topic>fires</Topic>
+<Date>02 06 2008</Date>
+<Title>Hollywood fire destroys famous film sets</Title>
+<Contents>A huge fire destroyed several film sets Hollywoods Universal Studios </Contents>
+<Topic>cyclones</Topic>
+<Date>02 06 2008</Date>
+<Title>Burma rushes to resettle cyclone victims</Title>
+<Contents>Burmas military junta started evict destitute families government run cyclone relief centres </Contents>
+<Topic>road</Topic>
+<Date>02 06 2008</Date>
+<Title>Motorcyclist charged after crash</Title>
+<Contents>A motorcycle rider charged drink driving accident seriously injured pillion passenger near Bourke northern New South Wales Police say 19 year old passenger fell back motorbike Mitchell Highway early yesterday morning He suffered serious leg injuries flown Dubbo Base Hospital treatment Officers say 21 year old rider charged mid range drink driving investigations continuing circumstances surrounding accident </Contents>
+<Topic>carnivals</Topic>
+<Date>02 06 2008</Date>
+<Title>Aussie film showcase declared a success</Title>
+<Contents>Organisers hailing Dungog Film Festival outstanding success 5000 people attending four day event The festival New South Wales Hunter Valley wound last night screening Australian premiere film Bitter Twisted Film festival director Allanah Zitserman says event gaining strong reputation showcase Australian film Theres people coming Australia getting plane Cannes Film Festival jumping train Dungog said Its extraordinary The sessions packed films loved debated its turned really really well </Contents>
+<Topic>divorce</Topic>
+<Date>02 06 2008</Date>
+<Title>Psychologist warns against 50-50 parenting settlements</Title>
+<Contents>Experts warn divorce settlements involve equal shared parental responsibility proving disastrous families children pay price For full story watch 730 Report tonight ABC 1 </Contents>
+<Topic>agribusiness</Topic>
+<Date>02 06 2008</Date>
+<Title>Rural sector prospects still down</Title>
+<Contents>A new survey found Tasmanian rural confidence improved slightly quarter still remains negative level The survey agribusiness banker Rabobank shows improvement income expectations investment The Rabobank Rural Confidence Survey questioned 1200 primary producers throughout Australia Senior Manager Launceston Greg Bott says overall Tasmanian farmer confidence rallied slightly quarter although results dramatically different region You actually break districts lot concern areas others Mr Bott said Just 30 per cent primary producers Tasmania expect agricultural economy improve next 12 months Producers north east north west optimistic experienced favourable conditions recently But survey found farmers south still struggling capable producing hit ever increasing input costs </Contents>
+<Topic>housing</Topic>
+<Date>02 06 2008</Date>
+<Title>Gap between wages and housing widens: Bankwest</Title>
+<Contents>A new survey shows many key Western Australian public servants unlikely able afford homes gap property prices income widens The survey conducted Bankwest shows 90 per cent houses Perth expensive people average wages including police nurses teachers It shows house prices increased almost 160 per cent since 2002 compared 30 per cent increase income A spokeswoman Bankwest Selina Duncalf says widening gap pay property prices likely felt regional areas Western Australia property prices continue climb Five years ago housing affordability issue key workers Sydney Melbourne said At moment 93 per cent local council areas Perth unaffordable key workers 2007 Key workers trying buy house Perth regional areas cant afford live communities serve The survey found Kwinana Armadale affordable areas Perth Broome Kimberley Roebourne Pilbara expensive regional areas purchase land </Contents>
+<Topic>budget</Topic>
+<Date>02 06 2008</Date>
+<Title>Budget boost for Grafton juvenile justice centre</Title>
+<Contents>A funding boost State Budget result 15 per cent expansion NSW juvenile justice system Grafton getting extra 15 places A spokesman Juvenile Justice Minister Barbara Perry say extra 10 million allocated capital works years Budget help advance existing plans provide beds three centres   Dubbo Wagga Wagga Grafton Graftons Acmena Juvenile Justice Centres boost 30 beds 45 expected help north coast region deal growing numbers young offenders coming system Ms Perry says tougher bail street policing leading greater numbers young people coming system Another 85 million allocated staff new units provide supervision rehabilitation program Ms Perry says aimed tackling re offending behaviour well boosting capacity </Contents>
+<Topic>indigenous</Topic>
+<Date>02 06 2008</Date>
+<Title>Bomaderry anniversary reunites members of Stolen Generations</Title>
+<Contents>Members Stolen Generations reunited 100th anniversary opening Bomaderry Childrens Home NSW south coast </Contents>
+<Topic>rugby</Topic>
+<Date>02 06 2008</Date>
+<Title>Mogg extends Catalans contract</Title>
+<Contents>Australian centre Adam Mogg extended stay Catalan Dragons sole French club playing Super League three seasons The 31 year old former Parramatta Eels Canberra Raiders player key member Dragons team stands third Super League behind Leeds St Helens Mogg moved France following successful season 2006 selected play State Origin Queensland  AFP </Contents>

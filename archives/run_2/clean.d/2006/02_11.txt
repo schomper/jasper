@@ -1,0 +1,32 @@
+<Topic>police</Topic>
+<Date>02 11 2006</Date>
+<Title>Police hold fears for missing woman</Title>
+<Contents>Police concerned welfare 82 year old woman missing suburb Manning Perth Edna Ruby Miller last seen 730pm AWST yesterday house Crawshaw Crescent She described 150 centimetres tall medium build last seen wearing navy blue tracksuit top light blue pants moccasins Ms Miller suffers dementia The police helicopter used search Manning area sign woman </Contents>
+<Topic>sport</Topic>
+<Date>02 11 2006</Date>
+<Title>Foreman out of coma</Title>
+<Contents>Veteran ABC broadcaster Wally Foreman taken induced coma Perth hospital receiving treatment since suffering heart attack earlier week Mr Foremans condition remains unchanged listed serious stable He collapsed working gym Tuesday morning One Australias experienced sports broadcasters Mr Foreman worked sports media 30 years He attended four Olympic Games five Commonwealth Games also called international cricket AFL football Davis Cup Australian Open tennis </Contents>
+<Topic>terrorism</Topic>
+<Date>02 11 2006</Date>
+<Title>DFAT yet to access Aust detainees in Yemen</Title>
+<Contents>The Department Foreign Affairs Trade DFAT says advised three Australians detained Yemen good health still seen them The three men arrested group foreigners could face terrorism related charges Australia advised arrests fortnight ago consular officials denied access men twice DFAT spokesman Rod Smith told Senate estimates hearing Yemeni security authorities want confirm identity Australian consular officials He says hoped allowed see men weekend Were contact obviously British German embassies Saana also nationals amongst group able visit nationals said We dont understand discussions particular concerns health welfare detainees </Contents>
+<Topic>terrorism</Topic>
+<Date>02 11 2006</Date>
+<Title>Minister tight-lipped on train terrorism plot reports</Title>
+<Contents>New South Wales Police Minister John Watkins says cannot comment validity press report two Australians arrested Yemen investigated last year plot bomb Sydneys Kings Cross Station The report Daily Telegraph says Mohammed Abdullah Ayub arrested Yemen drug running part Al Qaeda plot foiled last year ASIO state Australian Federal Police AFP Mr Watkins says cannot comment particular report says NSW police actively involved counter terrorism investigations I wont comment individual details emerging case I confirm New South Wales authorities contact ASIO Federal Police matter said Weve working hard ensure right people equipment laws prevent terrorist attack greatest defence always accuracy intelligence NSW counter terrorism commander Nick Kaldas says aware threat Assistant Commissioner Kaldas says newspaper wrongly linked number separate cases cause alarm Were aware plot   certainly imminent plot moment Kings Cross anywhere else said We liaising closely today counterparts Commonwealth also state rail government agencies within New South Wales </Contents>
+<Topic>community</Topic>
+<Date>02 11 2006</Date>
+<Title>Nine killed in fresh Gaza fighting</Title>
+<Contents>Nine Palestinians killed result Israeli military action Gaza Strip </Contents>
+<Topic>discrimination</Topic>
+<Date>02 11 2006</Date>
+<Title>Tribunal dismisses wheelchair-bound taxi passenger's complaint</Title>
+<Contents>The ACT Discrimination Tribunal dismissed complaints Canberra Cabs Aerial Taxis discriminated wheelchair bound passenger While tribunals deputy president Grant Lalor said could uphold complaint taxi companies ruling stated doubt Jonathan Crowley received unfavourable treatment efforts get taxi July 2004 The tribunal found significant problems taxi booking system completely inexcusable persons requiring wheelchair taxi experienced delays without wheelchairs not However Mr Lalor said appear fault company rather drivers adhere statutory obligations prioritise wheelchair bound passengers </Contents>
+<Topic>elections</Topic>
+<Date>02 11 2006</Date>
+<Title>Bracks unveils health policy blueprint</Title>
+<Contents>The Labor Party released health policy Victorian Premier Steve Bracks Sunshine Hospital announce plan includes 14 billion hospitals Melbourne That pay two new elective surgery centres St Vincents Repat Site Heidelberg well upgrades Sunshine Frankston Dandenong Hospitals For regions 265 million rebuild Warrnambool Hospital upgrade others attract GPs </Contents>
+<Topic>bushfire</Topic>
+<Date>02 11 2006</Date>
+<Title>Patrols continue around national park blaze</Title>
+<Contents>Patrols continuing today around fire burning inaccessible area Wadbilliga National Park west Cobargo National Parks Wildlife Service fire crews winched area helicopter late yesterday afternoon fight blaze one kilometre west Yowrie River Park service rangers board helicopter spotted fire shortly 100pm AEDT yesterday </Contents>

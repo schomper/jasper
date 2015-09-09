@@ -1,0 +1,24 @@
+<Topic>sport</Topic>
+<Date>28 01 2012</Date>
+<Title>Interview: Craig McDermott</Title>
+<Contents>australian bowling coach craig mcdermott told grandstands peter walsh pace attack brink something really good dismantling indias stellar batting line </Contents>
+<Topic>sport</Topic>
+<Date>28 01 2012</Date>
+<Title>Race Call: Black Caviar takes 17th straight win</Title>
+<Contents>grandstands gerard whateley calls black caviars th straight victory one australia stakes moonee valley </Contents>
+<Topic>bushfire</Topic>
+<Date>28 01 2012</Date>
+<Title>Crews battle Victorian blaze</Title>
+<Contents>two water bombing helicopters helping fight fire mount beckworth near clunes victorias north west the blaze burning across  hectares difficult terrain gum tree plantation the country fire authority cfa confident fire contained soon residents mount beckworth talbot still advised review bushfire plans case conditions change </Contents>
+<Topic>sport</Topic>
+<Date>28 01 2012</Date>
+<Title>Interview: Ryan Harris</Title>
+<Contents>paceman ryan harris told grandstands peter walsh hopefully australian clean india quickly heat final day fourth test </Contents>
+<Topic>media</Topic>
+<Date>28 01 2012</Date>
+<Title>Police arrest Sun tabloid staff, police officer</Title>
+<Contents>uk detectives searched offices rupert murdochs the sun arrested four journalists policeman widening probe bribing police information the development finally drags britains biggest selling newspaper turmoil mr murdochs empire stablemate news world shut disgrace july amid scandal phone hacking mr murdochs us based news corporation confirmed four journalists arrested either worked used work the sun police said made arrests information provided police news corporation   commentators said clear effort company detoxify brand the bbc guardian newspaper named arrested sun journalists former deputy editor fergus shanahan former managing editor graham dudman current crime editor mike sullivan current head news chris pharo in email staff tom mockridge chief executive murdochs british subsidiary news international said company provided legal support arrested men despite difficult news determined news international emerge stronger trusted organisation mr mockridge wrote email copy obtained the guardian we must support dominic mohan editor the sun leading staff deliver always great paper monday going forward scotland yard said statement dawn raids arrested two men aged   homes essex eastern england man aged  home london a  year old man later arrested attending police station they held suspicion corruption aiding abetting misconduct public office conspiracy relation offences a  year old forces territorial policing command arrested london police station works suspicion corruption misconduct public office conspiracy the home addresses arrested currently searched officers also carrying number searches offices news international wapping east london police statement said todays operation result information provided police news corporations management standards committee it relates suspected payments police officers seeking journalists reveal confidential sources relation information obtained legitimately thirteen people arrested operation elveden police investigation allegations journalists paid officers information current sun editor mohan told phone hacking inquiry earlier month knowledge phone hacking paper adding daily could powerful force good afp </Contents>
+<Topic>a</Topic>
+<Date>28 01 2012</Date>
+<Title>Interview: Gary van Egmond</Title>
+<Contents>newcastle jets coach gary van egmond spoke grandstand   win brisbane roar </Contents>

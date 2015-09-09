@@ -1,0 +1,32 @@
+<Topic>information</Topic>
+<Date>15 08 2010</Date>
+<Title>ABC News</Title>
+<Contents>abc news </Contents>
+<Topic>federal</Topic>
+<Date>15 08 2010</Date>
+<Title>Labor in the lead ahead of campaign launch</Title>
+<Contents>federal labor launch election campaign brisbane today buoyed recent poll results showing late surge voter support government the latest newspoll suggests government reclaimed ground lost cabinet leaks confusion kevin rudds future appeared rattle prime minister julia gillard the poll australian newspaper shows labor  per cent ahead  per cent two party preferred vote compared coalitions  per cent the coalition dropped  per cent primary vote  per cent greens risen  per cent labors primary vote steady  but polling marginal seats shows coalition still chance winning government labor trying claw back ground queensland final week campaigning ms gillard staying mum planned todays launch she said however would build comprehensive plans ive put week im obviously aiming launch puts australian people clearly i prime minister re elected said last week treasurer wayne swan hinted would big spending announcements launch the vast bulk sides commitments always would said as go election campaign notion huge announcement towards end doesnt happen i dont think happen next week the vast bulk commitments known but mr swan rebuke opposition leader tony abbott negative policy free launch failing outline economic plan much coalitions launch also held brisbane focused concerns labors leadership troubles ms gillard spent much campaign trying move attention past labor leaders mark latham mr rudd she yesterday quizzed whether mr latham would welcome launch new job journalist genuine reporters welcome ms gillard replied </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>15 08 2010</Date>
+<Title>Interview: John Cartwright</Title>
+<Contents>steve michaels celebrates try round  nrl match gold coast titans north queensland cowboys skilled park saturday august   </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>15 08 2010</Date>
+<Title>Interview: Andrew Demetriou</Title>
+<Contents>afl chief executive andrew demetriou told abcs offsiders program favour rule proposal based awarding goal ball shaves post </Contents>
+<Topic>emergency</Topic>
+<Date>15 08 2010</Date>
+<Title>Thousands evacuated in Lourdes bomb scare</Title>
+<Contents>a bomb scare forced evacuation roman catholic sanctuaries french pilgrimage destination lourdes thirty thousand worshippers lourdes celebrate feast assumption a bomb warning received police station announcing four bombs going go around pm sanctuaries said sites press officer pierre adias were trying evacuate shrines prevent people left lunch coming back this proceeding calmly no explosions heard pm local time police bomb disposal teams sniffer dogs seen inspecting basilica immaculate conception basilica rosary underground grotto saint pius x mr adias said church hoped reopen site police gave clear thousands pilgrims left various sanctuaries without incident adjoining administrative hospital buildings   including pools sick worshippers bathe reputedly holy water   also evacuated on august  catholics celebrate virgin marys ascent heaven lourdes   southern french town faithful believe virgin mary appeared vision  years ago   popular site mark event   afp </Contents>
+<Topic>road</Topic>
+<Date>15 08 2010</Date>
+<Title>Eight killed as racing truck hits spectators</Title>
+<Contents>at least eight people killed  injured vehicle ploughed crowd spectators popular road race southern california the accident occurred saturday evening local time race called california  traditionally held soggy dry lake bed near city lucerne valley mojave desert officials said the tragedy investigated california highway patrol sent major accident investigation team scene local fire department supervisor tim franke told reporters least four injured serious condition taken air ambulance nearby trauma centers according report kcal  los angeles television station accident happened beginning race one road trucks went track starting line plunged crowd the dry lake located  kilometres north east los angeles the los angeles times reported race organized mojave desert racing mdr southern california corporation headquartered south el monte the corporate website insisted mdr organized  desert car races year  different classes vehicles provided exciting rewarding safe environment road racing four locations barstow lucerne valley ridgecrest plaster city but kabc tv reported amateur videos taken last years race showed road vehicles performing stunts close spectators plastic netting separating   afp </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>15 08 2010</Date>
+<Title>Interview: Brett Seymour</Title>
+<Contents>warriors half back brett seymour says important side simply banked two points   win newcastle mt smart stadium </Contents>
+<Topic>missing</Topic>
+<Date>15 08 2010</Date>
+<Title>Police find missing Perth man safe and well</Title>
+<Contents>a  year old man missing suburb perths north found safe well stan day went missing floreat home early morning located police short time ago </Contents>

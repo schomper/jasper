@@ -1,0 +1,36 @@
+<Topic>sport</Topic>
+<Date>08 10 2011</Date>
+<Title>ABC Sport</Title>
+<Contents>abc sport </Contents>
+<Topic>road</Topic>
+<Date>08 10 2011</Date>
+<Title>Car crashes into hospital, three injured</Title>
+<Contents>a man crashed car front entrance john hunter hospital newcastle injuring three people the  year old dropping friend entrance hospital new lambton friday afternoon police say car accelerated crashed glass window three people injured including  year old woman pinned front door she undergone surgery injuries legs the driver treated paramedics pre existing condition acting inspector stuart mann says investigation determine whether man fit drive thats one things theyll looking given accident believed deliberate way shape form said a  year old man  year old woman suffered minor injuries released hospital shortly incident </Contents>
+<Topic>environmental</Topic>
+<Date>08 10 2011</Date>
+<Title>Oil spill off New Zealand threatens wildlife</Title>
+<Contents>a five kilometre oil slick leaking cargo ship new zealands north island already taking toll areas wildlife </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>08 10 2011</Date>
+<Title>Activists scale Opera House</Title>
+<Contents>protesters sydney opera house say time stop large furniture retailer harvey norman selling goods made australian forests </Contents>
+<Topic>drug</Topic>
+<Date>08 10 2011</Date>
+<Title>Boy arrested in Bali has full support: ambassador</Title>
+<Contents>australias ambassador indonesia told  year old boy held police bali possessing marijuana full support australian government greg moriartys arrival comes boy spent fourth night custody arrested tuesday allegedly possession  grams marijuana mr moriarty met boy family hour he says great deal stress specific concerns boys welfare stage the boys lawyer mohammad rifan says going push boy dealt section narcotics law applies minors drug addicts under section minors join drug rehabilitation program punished courts it clear boy would undergo treatment indonesia would allowed return australia the boy still held cell narcotics division police headquarters denpasar mr rifan says authorities trying find somewhere appropriate bali special facilities minors foreign minister kevin rudd earlier cautioned guarantee positive outcome we must patient work within indonesian legal processes said we guarantee outcome we going work carefully indonesian processes those comments came indonesian foreign ministry spokesman warned anyone caught indonesia illegal drugs could expect face severe penalties arrangements made allow boy sleep cell father able sleep office adjacent cell because juvenile police  days must lay charges under exceptional circumstances apply additional  days complete investigation the teenager holidays parents staying luxury resort area legian friend arrested if convicted possession would face maximum term six years would likely serve kerobokan prison alongside murderers sex offenders people death row abcaap </Contents>
+<Topic>world</Topic>
+<Date>08 10 2011</Date>
+<Title>US protests grow</Title>
+<Contents>thousands joined anti wall st protests across us rallying corporate greed economic inequality </Contents>
+<Topic>doctors</Topic>
+<Date>08 10 2011</Date>
+<Title>Sorell super clinic canned</Title>
+<Contents>the federal government accused breaking promise build gp super clinic southern tasmania the  million super clinic sorell supposed finished end last year but federal health minister nicola roxon said plans clinic shelved operators asked funding senator david bushby said government broken promise our side politics never convinced gp super clinic answer wed much rather see money distributed across existing surgeries practices around country said nonetheless promise something health outcomes sorell looks like promise going broken it important money goes back regional tasmania delivers services regional tasmanians need desire ms roxon said looking ways funding could used improve health services </Contents>
+<Topic>sport</Topic>
+<Date>08 10 2011</Date>
+<Title>ABC Sport</Title>
+<Contents>abc sport </Contents>
+<Topic>awards</Topic>
+<Date>08 10 2011</Date>
+<Title>UN secretary general praises Peace Prize winners</Title>
+<Contents>un secretary general ban ki moon offers congratulations nobel peace prize winners </Contents>

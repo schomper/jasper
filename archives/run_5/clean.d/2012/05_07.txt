@@ -1,0 +1,32 @@
+<Topic>sport</Topic>
+<Date>07 05 2012</Date>
+<Title>ABC Sport</Title>
+<Contents>abc sport </Contents>
+<Topic>emergency</Topic>
+<Date>07 05 2012</Date>
+<Title>New Port Stephens rescue boat</Title>
+<Contents>marine rescue port stephens today commissioned new  rescue vessel says improve response boating emergencies the  metre inflatable codi k ii smaller boat replacing organisation says faster operate  kilometres shore marine rescue commander malcolm milliken says boat also versatile particularly shallow waters it rigid inflatable capable going river systems lake systems course sea required said its stable vessel capable handing reasonable seas i mean careful sort seas take like boat </Contents>
+<Topic>a</Topic>
+<Date>07 05 2012</Date>
+<Title>Jets land Neville from Glory</Title>
+<Contents>newcastle snared services perth glory defender scott neville next two a league seasons jets striker jeremy brockie left a league club neville offered two year contract extension stay glory turned reduced deal order link jets newcastle also locked melbourne heart left back craig goodwin next two seasons announced parted ways brockie ali abbas tarek elrich the jets negotiations retain  year old brockie new zealand international said also exploring options overseas scoring nine goals last season neville established one glorys important players four years club notching  games filling skipper several times the hard running defenders   campaign severely disrupted serious knee injury  year old made back time play handy role bench perths run grand final perth eager keep neville could offer reduced deal due clubs major cost cutting drive scott player wanted keep disappointing decided leave glory coach ian ferguson said jets coach gary van egmond praised character neville describing type player newcastle needed goodwin originally adelaide named man match a league debut melbourne victory round  the  year old went play four games heart also earned call olyroos squad final olympic qualifying match iraq aap </Contents>
+<Topic>mining</Topic>
+<Date>07 05 2012</Date>
+<Title>Miners call for planning system overhaul</Title>
+<Contents>the new south wales minerals council says mining companies considering axing delaying projects upper hunter would thinking states current planning system rio tinto yet confirm whether shelve mount pleasant mine project muswellbrook high australian dollar increase production costs understood companys top concerns but chief executive minerals council stephen galilee says stringent planning laws would also worrying rio it would factor said the need get effective transparent consistent planning system particularly applies state significant developments important thing the minerals council says lengthy approval times taking toll mining companies mr galilee says improvements need made the length time taking get approvals applications considered getting longer longer issue concern industry new south wales </Contents>
+<Topic>nrl</Topic>
+<Date>07 05 2012</Date>
+<Title>Two Halves: May 7</Title>
+<Contents>grandstands shannon byrne daniel anderson look back weekend round nine two halves </Contents>
+<Topic>budget</Topic>
+<Date>07 05 2012</Date>
+<Title>Swan discusses budget</Title>
+<Contents>federal treasurer wayne swan discussed expect  budget media </Contents>
+<Topic>burglary</Topic>
+<Date>07 05 2012</Date>
+<Title>Police probe Eaglehawk break-ins</Title>
+<Contents>police investigating two overnight burglaries bendigo suburb eaglehawk three men broke home midnight police say group demanded money two women injured meanwhile police say short time later alcohol stolen nearby railway hotel officers looking whether people responsible burglaries </Contents>
+<Topic>water</Topic>
+<Date>07 05 2012</Date>
+<Title>Wastewater recycling to get $3.8m boost</Title>
+<Contents>the federal government says  million upgrade karrathas wastewater recycling scheme significantly boost supplies recycled water the parliamentary secretary sustainability urban water don farrell visited karratha launch upgrade increase supply recycled water community  million litres year senator farrell says water used shires ovals golf courses particularly ovals use recycled water quite safely save water would otherwise  gone waste said it means water drinking purposes going important karratha population grows future </Contents>

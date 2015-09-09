@@ -1,0 +1,42 @@
+<DOC>
+<DOC_NAME>Busy Mechanic</DOC_NAME>
+<TEXT>
+Source ABC News  Duration 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>ABC Sport</DOC_NAME>
+<TEXT>
+ABC Sport Source ABC News  Duration 1min 30sec Topics cricket field hockey soccer australia 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Donald is top golf earner in 2011</DOC_NAME>
+<TEXT>
+Luke Donald finished 2011 top earner golf Europe United States Source ABC News  Duration 57sec Topics golf united arab emirates european union united states 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>More rain over the weekend in Queensland.</DOC_NAME>
+<TEXT>
+Heavy rainfall central Queensland saw good tallies damage homes farm equipment meanwhile southern Queensland rain seen flood warnings several river systems Source ABC News  Duration 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Donald lands historic double</DOC_NAME>
+<TEXT>
+Luke Donald top world ways one becoming first player win money list crowns Europe United States Rival Rory McIlroy needed win Dubai World Championship deny Englishman Donald chance topping order merit Europe young Northern Irishman ended joint 11th place 9 under 279 closing 71 The 34 year old Donald summit world rankings 27 weeks already clinched US Tours money list crown October I couldnt see Rorys name leaderboard I kind knew double mine 13th hole Donald told reporters shooting 66 272 take third place behind Dubai winner Alvaro Quiros Spain 269  I knew I made history last six holes kind surreal added winner years WGC Accenture Match Play Championship Arizona PGA Championship Wentworth Scottish Open Inverness Disney Classic Florida The pressure went away I able enjoy myself smiles enjoy walk I guess thats about added Donald McIlroy feeling tired drained suffering viral infection couple weeks said simply tournament far end hectic playing schedule I couldnt get anything going I needed to I played nine hole stretch last two Friday first seven Saturday five par Thats tournament got away me said McIlroy The world number two said would skip next weeks inaugural Thailand Golf Championship last event season Asian Tour I cant wait weeks off added McIlroy People telling go another flight sleeping patterns messed up Next week would big struggle too The doctor told last night matter bad Im feeling Id even worse I played next week As Donald basking glow campaign even dare dream turn year Its something always hope believe possible said But believing totally different There lot lean years I wasnt winning Youve got keep believing point its going time Donald still next weeks Australian Masters play competitive year done Donald asked father died month ago would reacted success He popped head times today especially 13th hole Englishman replied I remembered I think would proud me Im sure would given big hug Reuters Topics golf sport united arab emirates england united kingdom First posted December 12 2011 064936 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Storms pummel central Qld</DOC_NAME>
+<TEXT>
+Central Queensland mopping wild storms battered region overnight Heavy rain 100 millimetres fell areas winds 98 kilometres hour recorded Rockhampton Airport yesterday afternoon The Boyne Dawson rivers reached minor flood levels Ivan Shepardson says lot damage around property near Biloela We three big wattle trees blown track said I got home I thought gee neighbours house doesnt look real good roofs completely gone it Neighbour next door us tree car I dont think lot damage Ergon Energys Bob Pleash says storms cut power 5000 homes Rockhampton area Very severe wind obviously lot rainfall intense lightning thunder  one main high voltage lines Egans Hill South Rockhampton substation brought due lightning strike disrupted customers said Topics disasters and accidents rainfall weather rockhampton 4700 More stories Queensland 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>WNBL Round 11 MVP - Lauren King</DOC_NAME>
+<TEXT>
+Sydney Unis Lauren King instrumental sides win Canberra Round 10 WNBL game caught Grandstands Rachael Sporn Source ABC Grandstand Sport  Duration 1min 52sec Topics wnbl sydney 2000 the university of sydney 2006 
+</TEXT>
+</DOC>

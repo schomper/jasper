@@ -1,0 +1,28 @@
+<Topic>UNDEFINED</Topic>
+<Date>12 12 2011</Date>
+<Title>Busy Mechanic</Title>
+<Contents></Contents>
+<Topic>cricket</Topic>
+<Date>12 12 2011</Date>
+<Title>ABC Sport</Title>
+<Contents>abc sport </Contents>
+<Topic>golf</Topic>
+<Date>12 12 2011</Date>
+<Title>Donald is top golf earner in 2011</Title>
+<Contents>luke donald finished  top earner golf europe united states </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>12 12 2011</Date>
+<Title>More rain over the weekend in Queensland.</Title>
+<Contents>heavy rainfall central queensland saw good tallies damage homes farm equipment meanwhile southern queensland rain seen flood warnings several river systems </Contents>
+<Topic>golf</Topic>
+<Date>12 12 2011</Date>
+<Title>Donald lands historic double</Title>
+<Contents>luke donald top world ways one becoming first player win money list crowns europe united states rival rory mcilroy needed win dubai world championship deny englishman donald chance topping order merit europe young northern irishman ended joint th place   closing  the  year old donald summit world rankings  weeks already clinched us tours money list crown october i couldnt see rorys name leaderboard i kind knew double mine th hole donald told reporters shooting   take third place behind dubai winner alvaro quiros spain   i knew i made history last six holes kind surreal added winner years wgc accenture match play championship arizona pga championship wentworth scottish open inverness disney classic florida the pressure went away i able enjoy smiles enjoy walk i guess thats added donald mcilroy feeling tired drained suffering viral infection couple weeks said simply tournament far end hectic playing schedule i couldnt get anything going i needed i played nine hole stretch last two friday first seven saturday five par thats tournament got away said mcilroy the world number two said would skip next weeks inaugural thailand golf championship last event season asian tour i cant wait weeks added mcilroy people telling go another flight sleeping patterns messed next week would big struggle the doctor told last night matter bad im feeling id even worse i played next week as donald basking glow campaign even dare dream turn year its something always hope believe possible said but believing totally different there lot lean years i wasnt winning youve got keep believing point going time donald still next weeks australian masters play competitive year done donald asked father died month ago would reacted success he popped head times today especially th hole englishman replied i remembered i think would proud im sure would given big hug reuters </Contents>
+<Topic>disasters</Topic>
+<Date>12 12 2011</Date>
+<Title>Storms pummel central Qld</Title>
+<Contents>central queensland mopping wild storms battered region overnight heavy rain  millimetres fell areas winds  kilometres hour recorded rockhampton airport yesterday afternoon the boyne dawson rivers reached minor flood levels ivan shepardson says lot damage around property near biloela we three big wattle trees blown track said i got home i thought gee neighbours house doesnt look real good roofs completely gone neighbour next door us tree car i dont think lot damage ergon energys bob pleash says storms cut power  homes rockhampton area very severe wind obviously lot rainfall intense lightning thunder  one main high voltage lines egans hill south rockhampton substation brought due lightning strike disrupted customers said </Contents>
+<Topic>wnbl</Topic>
+<Date>12 12 2011</Date>
+<Title>WNBL Round 11 MVP - Lauren King</Title>
+<Contents>sydney unis lauren king instrumental sides win canberra round  wnbl game caught grandstands rachael sporn </Contents>

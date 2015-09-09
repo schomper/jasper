@@ -1,0 +1,36 @@
+<Topic>sport</Topic>
+<Date>13 04 2013</Date>
+<Title>ABC Sport</Title>
+<Contents>abc sport </Contents>
+<Topic>federal</Topic>
+<Date>13 04 2013</Date>
+<Title>Crean savages Labor in scathing interview</Title>
+<Contents>former labor frontbencher simon crean savaged party leader newspaper interview refuelled issue labor disunity prime minister julia gillard sacked mr crean cabinet called party room ballot leadership march after failed spill mr crean called labor consolidate unify around ms gillard but interview published fairfax newspapers morning mr crean instead accused pm tin ear political strategy kevin rudd arrogant shes got tin ear she sits listens doesnt translate mr crean told fairfax because somewhere along way gets word heres angle get tomorrows headline mr crean says government neglected key election campaign promises living principles consensus inclusiveness established hawke keating governments the prime minister gone class warfare the  visa debate good example message taken context   looked like well put australians foreigners mr crean said interview unequivocally immigration good country thats ethos hawke keating model how built country by cohesion we seen outside great success story multiculturalism why dont play play strength thats point senior labor party figure geoff gallop described mr creans criticism ms gillard irrational the former labor premier western australia says cannot understand mr crean ignored calls destabilisation stop he might trying contribute debate within australian labor party thats favourable interpretation said another one might manoeuvring literally julia gillard taken position someone else put   like whatever i cant say   actions irrational political point view queensland nationals senator barnaby joyce told abc news  mr creans comments anarchy our country cant go like said we know country cannot go like it turn around it football played mr swan ms gillard independent mp tony windsor we must right thing we must get show back rails </Contents>
+<Topic>sport</Topic>
+<Date>13 04 2013</Date>
+<Title>Grandstand Breakfast: April 13</Title>
+<Contents>francis leach karen lyon spoke paul fairweather australian sports commission people longer joining sporting clubs and port adelaide assistant coach gary hocking previewed tomorrows afl showdown crows power </Contents>
+<Topic>refugees</Topic>
+<Date>13 04 2013</Date>
+<Title>Details of asylum boat sinking unclear</Title>
+<Contents>fourteen afghan asylum seekers reportedly rescued boast sank indonesian province west java abcs indonesia correspondent george roberts says details still unclear </Contents>
+<Topic>sport</Topic>
+<Date>13 04 2013</Date>
+<Title>Interview: Jake Carlisle</Title>
+<Contents>essendons jake carlisle told grandstands clint thomas teams win dockers great end tough days bombers </Contents>
+<Topic>refugees</Topic>
+<Date>13 04 2013</Date>
+<Title>The figures: Boat arrivals in Australia since 1976</Title>
+<Contents>this table shows boat arrivals figures going back  data supplied parliamentary library  editors note march   this table amended make clear records boat arrivals since  </Contents>
+<Topic>nrl</Topic>
+<Date>13 04 2013</Date>
+<Title>Interview: Gareth Widdop</Title>
+<Contents>melbourne storms gareth widdop tells grandstand side dig deep beat rabbitohs   sydneys olympic stadium </Contents>
+<Topic>horse</Topic>
+<Date>13 04 2013</Date>
+<Title>Race wrap: Black Caviar wins TJ Smith Stakes</Title>
+<Contents>gerard whateley wraps black caviars th consecutive win took tj smith stakes randwick </Contents>
+<Topic>police</Topic>
+<Date>13 04 2013</Date>
+<Title>Man hit by truck after pay dispute</Title>
+<Contents>a man recovering hospital hit four tonne truck sydneys south west pay dispute the man  answered online ad work labourer day moving furniture earlwood padstow police say man completed job got argument truck driver payment end day the labourer stood front truck refused move received money it alleged driver drove man fell became wedged engine dragged  metres along road police say truck stopped reversed drove leaving man serious injuries he receiving treatment liverpool hospital grazing back head possible injuries lungs spine bankstown police urging anyone knows driver contact </Contents>

@@ -1,0 +1,24 @@
+<Topic>healthcare</Topic>
+<Date>12 12 2008</Date>
+<Title>Surgery halved at Townsville Hosp</Title>
+<Contents>megan pailthorpe reports qld oppn says another crisis townsville hospital surgical capacity halved crumbling concrete </Contents>
+<Topic>road</Topic>
+<Date>12 12 2008</Date>
+<Title>Fatal in two-car smash</Title>
+<Contents>there death two car accident north east adelaide the crash one tree hill road sampson flat pm </Contents>
+<Topic>cricket</Topic>
+<Date>12 12 2008</Date>
+<Title>Inspired England takes control of India Test</Title>
+<Contents>an inspired england side taken control opening test india chennai debutant spinner graeme swann grabbed two wickets first test cricket the  year old swann dismissed opener gautam gambhir  third delivery number three rahul dravid  sixth reduce india   left arm spinner monty panesar medium pacer andrew flintoff struck quick succession dismiss vvs laxman  sachin tendulkar  respectively pair raised  fourth wicket fast bowler steve harmison birthday boy yuvraj singh caught second slip flintoff  leave india tatters   reply englands first innings  skipper ms dhoni  crease stumps harbhajan singh unbeaten  wicketkeeper matt prior struck fifth test fifty guide visitors past  mark england  minutes lunch  reuters </Contents>
+<Topic>world</Topic>
+<Date>12 12 2008</Date>
+<Title>Taiwan's ex-leader charged with corruption</Title>
+<Contents>prosecutors taiwan say indicted former president chen shui bian corruption charges they first filed mr chen since arrest month ago suspicion forgery money laundering crimes the former presidents wife  people also indicted they investigated suspicion embezzling state funds mr chens time office </Contents>
+<Topic>regional</Topic>
+<Date>12 12 2008</Date>
+<Title>MPs join forces to lobby for Mt Lindesay Rd revamp</Title>
+<Contents>state federal politicians making renewed push upgrade road linking southern queenslands darling downs new south wales northern rivers southern downs mp queensland opposition leader lawrence springborg ford mp brett raguse page mp janelle saffin meeting downs river action committee today lobby federal government upgrade mount lindesay road committee chairman kyogle councillor lindsay passfield says road important freight link queensland new south wales we hear lot nation building federal politicians excellent opportunity nation building exercise thats already well truly underway strategic regional program cr passfield said if plug infrastructure australia funding continue job see completion great benefits darling downs northern rivers mr springborg says important ever transport links across states work effectively there lot interest particularly given infrastructure australia funding need strategic linkages actually offered northern new south wales southern queensland much growth corridor said </Contents>
+<Topic>a</Topic>
+<Date>12 12 2008</Date>
+<Title>Miller's injury problems mounting: Moore</Title>
+<Contents>queensland roar skipper craig moore says concerned lingering injuries starting get better scottish playmaker charlie miller the roars leading goal scorer struggling groin ankle hernia injuries unlikely start sundays match newcastle moore fears miller may spend time sidelines the best part job playing weekend thats something charlie loves said hopefully still look try get involved games end season </Contents>

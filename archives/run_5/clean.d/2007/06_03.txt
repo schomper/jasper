@@ -1,0 +1,32 @@
+<Topic>emergency</Topic>
+<Date>03 06 2007</Date>
+<Title>Man in hospital after being hit by train</Title>
+<Contents>a man critical condition hit train perths east police say accident happened midland late sunday afternoon the man taken royal perth hospital </Contents>
+<Topic>obesity</Topic>
+<Date>03 06 2007</Date>
+<Title>Children of single mums 'more likely to become obese'</Title>
+<Contents>researchers found children single mothers likely grow overweight obese the findings medical journal australia suggest things family conflict negative events much impact childs weight but lisa gibson telethon institute child health research says health relationship status mother we found overweight mother coming single parent family important predictors child overweight obese said dr gibson says possible single mothers time resources feed children nutritious foods give exercise recreational facilities she says comes children overweight mother link probably mixture genetics shared environment </Contents>
+<Topic>nuclear</Topic>
+<Date>03 06 2007</Date>
+<Title>WA to ban nuclear power stations</Title>
+<Contents>the west australian government introduce legislation later month ban nuclear power stations state </Contents>
+<Topic>healthcare</Topic>
+<Date>03 06 2007</Date>
+<Title>Elective surgery waiting lists 'drop by 10,000'</Title>
+<Contents>the new south wales government claims number people long term elective surgery waiting lists dropped  last two years nsw health minister reba meagher says march year  people waiting  months surgery she says march   people list ms meagher says state government set new telephone hotline people waiting elective surgery get advice waiting surgery stressful patients families want make easier people someone available discuss different options meanwhile state opposition labelled claims joke opposition health spokeswoman jillian skinner says ridiculous assertion but figures theyre using theyre suggesting way everyone laughing said they dont believe but ms meagher stands claims saying government worked hard reduce waiting lists those lists reduced  march year said thats tremendous result demonstrates achieved new south wales hospital system </Contents>
+<Topic>police</Topic>
+<Date>03 06 2007</Date>
+<Title>Teen's car confiscated after 200kph drive</Title>
+<Contents>a dandenong north man arrested car impounded caught driving  kilometres per hour  kph zone melbournes south east police say saw teenagers car weaving traffic wellington road clayton aest today he expected charged serious driving offences including conduct endangering life the man told police tired aware speed </Contents>
+<Topic>climate</Topic>
+<Date>03 06 2007</Date>
+<Title>Koperberg hails national emissions reporting system</Title>
+<Contents>the new south wales government says reporting greenhouse gas emissions improve states territories agreed national mandatory reporting at meeting yesterday environment ministers set july next year date major greenhouse gas emitters begin reporting emission levels companies emit  tonnes greenhouse gas emissions per year disclose emissions new south wales environment minister phil koperberg says states agreed national approach carbon emitters required enter level emissions national pollutant inventory index mean real measure national basis said the significant part change individual states variety reporting systems reported polluters so augmentation current scheme give us first time national perspective emissions </Contents>
+<Topic>law</Topic>
+<Date>03 06 2007</Date>
+<Title>Two teens charged over Melbourne school fire</Title>
+<Contents>two teenage boys charged fire melbourne school overnight there substantial external damage viewbank secondary college viewbank melbournes north east pm aest saturday the boys  year old mcleod  year old montmorency charged criminal damage fire they bailed appear childrens court august  </Contents>
+<Topic>australian</Topic>
+<Date>03 06 2007</Date>
+<Title>Blues taste success against Bulldogs</Title>
+<Contents>carlton snapped six game losing streak gritty  point afl win western bulldogs high scoring affair mcg afternoon matthew lappin booted five goals carlton triumphed     highly fancied bulldogs fallen outside top eight   record far season it blues third win season came back superb third quarter display saw kick eight goals two the third term display arguably best single quarter performance season helped carlton overturn  point half time deficit open  point gap final change the bulldogs kicked five goals three final quarter gutsy blues good enough hold brendan fevola marc murphy helped stave bulldogs challenge booting last two goals match andrew carrazzo monster game blues  touches brad fisher contributed  possessions three goals skipper brad johnson led scoring bulldogs three majors scott west typically busy game  touches carlton     m lappin  b fisher  j waite  m murphy  j bannister a bentick l blackwell b fevola s ohailpin h scotland a walker l whitnall bulldogs     b johnson  a cooney  n eagleton  d giansiracusa  s higgins  j akermanis l gilbee r griffen m hahn r hargrave s power m robbins p street </Contents>

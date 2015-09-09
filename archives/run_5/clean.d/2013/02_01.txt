@@ -1,0 +1,36 @@
+<Topic>UNDEFINED</Topic>
+<Date>01 02 2013</Date>
+<Title>National Rural News for Friday 01/02/13</Title>
+<Contents>national rural news friday  </Contents>
+<Topic>business</Topic>
+<Date>01 02 2013</Date>
+<Title>ABC Business and Market Analysis</Title>
+<Contents>abc business market analysis </Contents>
+<Topic>wool</Topic>
+<Date>01 02 2013</Date>
+<Title>Uralla grower mourns closure of wool centre</Title>
+<Contents>a new england wool grower  year connection newcastle wool selling centre labelled closure great shame the current lease holder super fine wool selling facility says viable keep centre operating final sale newcastle held february tony gall runs  super fine merino sheep property west uralla he says closure leave sydney melbourne fremantle wool sales our business selling wool newcastle since late consistently going year year time weve seen build recognition wool sold newcastle said its got great reputation probably best wools world sold centre craig finlay head awh operates newcastle wool sales says sad decision end whats long proud tradition newcastle absolutely great pity volume fallen low level company proud associated newcastle wool sales said theres lot tradition around long history site re development new owner lost yes its sad day </Contents>
+<Topic>manufacturing</Topic>
+<Date>01 02 2013</Date>
+<Title>More job cuts at Caterpillar's Burnie plant</Title>
+<Contents>the mining equipment manufacturer caterpillar axed  jobs burnie caterpillar underground mining says affected workers mainly boiler makers welders metal workers the announcement follows manufacturers decision lay  labour hire workers days christmas latest job cuts reduce workforce  john short manufacturing workers union says worrying sign theyve plant built thailand bigger plant one burnie and need ask question long term plans said mr short the companys managing director dan barich assuring workers plans move burnie business offshore it intention i aware plans future move burnie operations australia that case fact goal quite opposite said mr barich says global slump manufacturing prompted latest round job cuts being part shrinking business economy fun these hard things primarily make sure remain competitive keep costs make sure providing best quality equipment said mr barich he says employees offered counselling support services </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>01 02 2013</Date>
+<Title>Power pole crash</Title>
+<Contents>most farmers pride knowing every inch property but know paddock well crash lone power pole middle laura poole reports farm machinery gets bigger advanced farmers forgetting basics like steering </Contents>
+<Topic>agribusiness</Topic>
+<Date>01 02 2013</Date>
+<Title>Queensland graziers search for lost stock</Title>
+<Contents>with many kilometres fencing animals washing flooded creeks rivers queensland graziers facing logistical nightmare getting lost animals home while theres yet official numbers stock losses theres anecdotal reports thousands central queensland area alone around wowan people best round grazier ian scott says backbreaking work resurrecting fencing needs take place figure whose stock there dead cattle everywhere weve ended  extra head neighbours lost lot said the fences non existent alternative places put mr scott says rebuilding fences hard a lot us getting older labour help when put teenage kids its still got done northern area co ordinator stock rural crime investigation squad detective jim lacey says waters recede hard gauge impact it going difficult we found  stock went missing even unmarked stock owned someone all stock subject ownership senior sergeant lacey says plenty unmarked calves ground honesty big part process if stock property dont know owner bear mind missed someone said with flood magnitude losses going great every beast get back significant value </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>01 02 2013</Date>
+<Title>Bream Creek farmers market</Title>
+<Contents>after abandoned last month bushfires bream creek farmers market resume sunday </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>01 02 2013</Date>
+<Title>January weather summary</Title>
+<Contents>hot dry short summary tasmanian weather january </Contents>
+<Topic>golf</Topic>
+<Date>01 02 2013</Date>
+<Title>Australian Ladies Masters: Round 1</Title>
+<Contents>niav owens wraps first round australian ladies masters </Contents>

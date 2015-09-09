@@ -1,0 +1,32 @@
+<Topic>rural</Topic>
+<Date>20 12 2011</Date>
+<Title>National Rural News for Tuesday 20/12/11</Title>
+<Contents>guest worker program permanent july next year spinach creamed ninja star hail sa grain growers counting cost hail wet summer ahead east west coasts aaco pushing restructure peak cattle bodies christmas vegies going cheap tomato farm works overtime christmas salads </Contents>
+<Topic>health</Topic>
+<Date>20 12 2011</Date>
+<Title>Doctors want a federal health bailout</Title>
+<Contents>tasmanian doctors maintain federal government bailout needed patients avoid suffering state budget cuts the launceston general hospital last state close surgical beds by end week drop   beds two six operating theatres close director surgery berni einoder says staff pressure morale suffered we understand governments run money best said were happy fighting hobart lost  surgical beds states north west lost  professor einoder wants federal government offer short term bail while long term change ways the commonwealth previously ruled financial lifeline </Contents>
+<Topic>weather</Topic>
+<Date>20 12 2011</Date>
+<Title>ABC Weather</Title>
+<Contents>abc weather </Contents>
+<Topic>grain</Topic>
+<Date>20 12 2011</Date>
+<Title>Grain harvest deliveries near end</Title>
+<Contents>growers geraldton zone wrapping last harvest delivered three million tonnes far co operative bulk handling cbh says received  tonnes growers region past week the harvest geraldton zone expected reach  million tonnes total meanwhile esperance grain deliveries hampered rainfall past week cbh says received  tonnes grain it says depot received around  per cent estimated harvest expects high moisture levels continue delay completion </Contents>
+<Topic>rural</Topic>
+<Date>20 12 2011</Date>
+<Title>Hail damages more grain crops in the state</Title>
+<Contents>jamestown grain grower tony bray isnt likely harvest completed christmas year planned he farms near browns hill  kilometres north east jamestown weekend farm hit hail in whats quite unusual state   second bout hail damage season growers near robertstown mid north reporting damage early november </Contents>
+<Topic>courts</Topic>
+<Date>20 12 2011</Date>
+<Title>Cyclist caught riding five times over the limit</Title>
+<Contents>a north queensland man fined  riding bicycle blood alcohol level five times legal limit the mackay magistrates court told roy scriven seen riding bike dangerous manner shakespeare street november the court told police called scriven almost veered path car driven duty officer the court heard seen riding wrong side road swerving traffic he taken mackay police station recorded blood alcohol reading  scrivens lawyer told court  year old invalid pensioner car licence in sentencing magistrate ross risson said scriven great risk becoming statistic actions </Contents>
+<Topic>community</Topic>
+<Date>20 12 2011</Date>
+<Title>Airport expansion lifts fly-in, fly-out hopes</Title>
+<Contents>a north queensland mp says opening newly upgraded whitsunday coast airport terminal proserpine north mackay could position region base fly fly fifo workers the multi million dollar renovation includes extra floor space expansion departure lounge queensland tourism minister jan jarratt also member whitsunday says tourist flights remain key market airport growing mining sector another potential source we think great idea easily sell people could living whitsundays whilst working hours road road one many coal mineral resource facilities around place said ms jarratt also says completion multi million dollar upgrade whitsunday coast airport terminal proserpine play role shaping visitors impressions region the  million renovation includes extra floor space expansion departure lounge ms jarratt says upgrade provide efficient airport experience travellers its important know first impressions count people get flight often theyve travelling quite time said its important arrive destination destination says whitsundays everything stands </Contents>
+<Topic>regional</Topic>
+<Date>20 12 2011</Date>
+<Title>Irrigation approvals still to come</Title>
+<Contents>tasmanias conservation trust says theyll carefully monitoring planning construction phase  million irrigation schemes launched weekend both  million midlands scheme  million south esk irrigation projects given green light construction beginning early next year its anticipated midlands scheme take two years build one year south esk ceo tasmanian conservation trust peter mcglone says much environmental approval work yet done midlands scheme environmentally speaking assessments farm scale yet done we havent seen finalised farm access plans midlands done dont know whether going meet standards expected irrigation board meet standards expect peter mcglone says midlands one  national hotspots threatened species contains large areas threatened lowland grasslands the local level approvals biggest concern approvals yet even sought </Contents>

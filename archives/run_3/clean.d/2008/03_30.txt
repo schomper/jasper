@@ -1,0 +1,36 @@
+<Topic>climate</Topic>
+<Date>30 03 2008</Date>
+<Title>Earth Hour celebrated around the world</Title>
+<Contents>millions people around world turned lights mark earth hour aims reduce carbon emissions </Contents>
+<Topic>information</Topic>
+<Date>30 03 2008</Date>
+<Title>Daylight savings change creates time bug</Title>
+<Contents>the change daylight saving schedule seems caused confusion technological hitches the abc received scores calls people say mobile phones computers switched back week early daylight savings time daylight savings normally ends new south wales today delayed one week south east states attempt harmonise dates across country problems reported broadcasting computer operated systems failing operate correct time it believed speaking clock service also caught morning telling incorrect time telstra says investigating problem associate professor michael liebelt electronic engineering lecturer university adelaide says publicity given likelihood problems happening it hasnt discussed widely i mean discussion last year i think people terribly aware happening general community said he says problem built computer systems equipment computer systems including ones inside phones tables built memory tells dates daylight savings kicks kicks said the fact rules changed rules havent reflected back tables computer means computer got wrong idea time </Contents>
+<Topic>road</Topic>
+<Date>30 03 2008</Date>
+<Title>3yo injured in car collision</Title>
+<Contents>police melbourne investigating circumstances accident left three year old boy injured morning it believed boy may run behind parked car craigieburn leaving driver little chance avoiding collision shortly aedt the car travelling west medway road time the boy family function incident police believe speed alcohol influences factor stage </Contents>
+<Topic>gp</Topic>
+<Date>30 03 2008</Date>
+<Title>Lorenzo on pole, Stoner qualifies seventh in Spain</Title>
+<Contents>yamahas spanish rider jorge lorenzo set new course record overnight way claiming pole position sundays spanish motogp second race season australias world champion casey stoner won qatar seventh fastest time start third row alongside britains james toseland american john hopkins lorenzo clocked one minute  seconds lowering italian loris capirossis previous best   three times saturdays qualifying compatriot dani pedrosa riding honda finished  seconds pace american colin edwards yamaha crossing third fastest  five time motogp champion valentino rossi yamaha fifth grid behind  world champion nicky hayden honda for us pole position second place qatar real surprise said  year old lorenzo first season motogp won cc title last year today repeated pole happy last lap good the first laps i tense last one i good feeling we good pace important were ready fight pedrosa  world championship runner delighted second place its important front row track said pedrosa third qatar lorenzos time unbelievable stoner won opening race qatar never enjoyed spanish track injured shoulder fall practice winter failing gain podium finish last years title winning season  afp </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>30 03 2008</Date>
+<Title>20080330-closer-am1</Title>
+<Contents> closer </Contents>
+<Topic>world</Topic>
+<Date>30 03 2008</Date>
+<Title>Rudd pushes for UN Security Council seat</Title>
+<Contents>the prime minister kevin rudd announced australia making bid un security council  </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>30 03 2008</Date>
+<Title>NRL Interview: Mat Rogers</Title>
+<Contents>grandstands brad tallon caught titans five eighth mat rogers sides   win cronulla robina </Contents>
+<Topic>swimming</Topic>
+<Date>30 03 2008</Date>
+<Title>Olympic swimmer sweating on fight probe</Title>
+<Contents>australias olympic butterfly swimmer nick darcy may kicked beijing team reportedly breaking fellow swimmer simon cowleys nose bar room brawl hours team announced </Contents>
+<Topic>economic</Topic>
+<Date>30 03 2008</Date>
+<Title>We can withstand markets turmoil, Rudd tells UN</Title>
+<Contents>prime minister kevin rudd told united nations australias economic prospects remain sound strong good despite turmoil global financial markets reaffirming message reserve bank the take australian economy still good mr rudd told reporters visit un adding australia limited exposure subprime mortgage woes erupted united states last year we excellent balance sheets terms principal corporates banks said the default rate australia minuscule oecd organisation economic cooperation development standards he said predicted high growth rates australias key trading partners asia responsible we better set economic prospects number economies said so economic message australia still sound strong good the reserve bank said semi annual report thursday country much better placed many others banks remaining highly profitable well capitalised household business balance sheets healthy overall during visit us mr rudd met president george w bush political economic leaders saturday including federal reserve chairman ben bernanke said believed washington handling financial turmoil well i satisfied way date us administration co operating international counterparts developing integrated global response global financial crisis said this work start come fruition next month two   reuters </Contents>

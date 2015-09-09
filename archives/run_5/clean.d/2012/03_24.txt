@@ -1,0 +1,24 @@
+<Topic>australian</Topic>
+<Date>24 03 2012</Date>
+<Title>Interview: Shane Mumford</Title>
+<Contents>swans ruckman shane mumford told shannon byrne grandstand team surprised physicality giants showed first afl game saturday night </Contents>
+<Topic>super</Topic>
+<Date>24 03 2012</Date>
+<Title>Interview: Chris Alcock</Title>
+<Contents>waratahs flanker chris alcock told grandstands john morrison team mates always believed would come top sharks saturday afternoon </Contents>
+<Topic>tennis</Topic>
+<Date>24 03 2012</Date>
+<Title>Azarenka extends winning streak</Title>
+<Contents>world number one victoria azarenka stretched unbeaten run  matches year another easy win first appearance wtaatp event miami friday her latest victim michaella krajicek netherlands fought hard match azarenka belarusian cruised     win azarenka hottest start season since martina hingis won first  matches  her wins year include australian open indian wells last week realises target back i felt nothing lose went shots really aggressive azarenka said i think i could aggressive play game i found right shot selection right opportunities i needed meanwhile former world number one venus williams idled six months upset czech third seed petra kvitova       reach third round williams first wta event since pulling last years us open took advantage   break point chances fought rally advance two hours  minutes she booked third round match canadian wildcard aleksandra wozniak defeated romanias monica niculescu       spanish second seed rafael nadal began quest first ever miami hardcourt title ousting colombias santiago giraldo      minutes nadal received first round bye advanced third round match czech radek stepanek ousted germanys tommy haas       great britains andy murray given bye first round rebounded early exit indian wells last week beat colombias alejandro falla     the fourth seed faces third round clash milos raonic defeated arnaud clement       i expecting tricky  managed play better murray said once i settled started playing well i service games so i putting pressure american john isner maintained great run form included win world number one novak djokovic defeating russian nikolay davydenko       highlighted  aces reuters </Contents>
+<Topic>cycling</Topic>
+<Date>24 03 2012</Date>
+<Title>Albasini still leading in Spain</Title>
+<Contents>greenedges michael albasini held overall lead following fifth stage tour catalonia french rider julien simon sau team won stage sprint finish  kilometre trek asco manresa colombias rigoberto uran team sky polands sylvester szmyd liquigas completed top three switzerlands albasini leads overall standings one minute  seconds belgiums jurge van den broeck ltb irelands daniel martin grm spains samuel sanchez euskatel afp </Contents>
+<Topic>elections</Topic>
+<Date>24 03 2012</Date>
+<Title>Final week of election campaign</Title>
+<Contents> queensland takes look back final week election campaign </Contents>
+<Topic>sport</Topic>
+<Date>24 03 2012</Date>
+<Title>ACT Grandstand</Title>
+<Contents>grandstands tim gavel bronwyn fagan discuss latest sport news act surrounding region </Contents>

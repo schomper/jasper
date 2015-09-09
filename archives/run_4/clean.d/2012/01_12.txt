@@ -1,0 +1,24 @@
+<Topic>UNDEFINED</Topic>
+<Date>12 01 2012</Date>
+<Title>Bull testing begins in north Queensland</Title>
+<Contents>miriam hall joins north queensland vet bull testing </Contents>
+<Topic>sport</Topic>
+<Date>12 01 2012</Date>
+<Title>Cricket returns to Pakistan</Title>
+<Contents>international cricket returning pakistan first time since terrorist attack sri lankan squad two years ago </Contents>
+<Topic>athletics</Topic>
+<Date>12 01 2012</Date>
+<Title>Interview: Sharon Hannan</Title>
+<Contents>sally pearsons coach sharon hannan told grandstands zane bojack confident charge make serious assault world  metres hurdles record  </Contents>
+<Topic>crime</Topic>
+<Date>12 01 2012</Date>
+<Title>Bullet nearly hits sleeping baby</Title>
+<Contents>erin bell reports scene latest shooting sydneys south west sleeping baby narrowly missed bullet </Contents>
+<Topic>cyclones</Topic>
+<Date>12 01 2012</Date>
+<Title>TC Heidi brings joy and a little pain for Pilbara pastoralists</Title>
+<Contents>as tropical cyclone heidi moves inland pilbara continues shower country rain one stations thats received lot rain wallareenya km south east port hedland carolyn day station says theyve mm its excellent said its good weve far get bit well deal indee station lies km south port hedland owner colin brierly says station suffered damage cyclone trees everywhere course branches said theres also sheets iron shed its mess really although weather caused bit damage mr brierly says still great see rainfall time year we needed rain badlyits bonza annabelle coppin yarrie station km east port hedland says theyve around mm rainfall hardly winds she says shes slice heaven </Contents>
+<Topic>disasters</Topic>
+<Date>12 01 2012</Date>
+<Title>Fire advice for Port Kennedy</Title>
+<Contents>fire crews working contain fire port kennedy south perth fesa says fire started near bayeux avenue it one kilometre away homes burning slowly the authority says threat lives homes residents need aware keep date there lot smoke area </Contents>

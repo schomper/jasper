@@ -1,0 +1,36 @@
+<Topic>sport</Topic>
+<Date>16 02 2013</Date>
+<Title>ABC Sport</Title>
+<Contents>abc sport </Contents>
+<Topic>cricket</Topic>
+<Date>16 02 2013</Date>
+<Title>Centurion Marsh injured in Aussie A win</Title>
+<Contents>former test batsman shaun marsh battled injury notch classy century australia as convincing seven wicket england lions bellerive oval marsh collapsed clutching right knee completing run reach  appearing suffered serious injury the  year old writhed agony treated medical staff batted long enough reach   balls promptly retiring hurt marsh skipper aaron finch   set australians total   five balls spare lions made   boosted opener varun chopras  marsh hit seven fours six continue superb domestic summer dropped warriors squad disciplinary reasons he fought way back national team twenty series sri lanka playing two one day internationals west indies finch put forgettable debut international summer behind averaging  seven one day internationals australia the lions look like getting wicket marsh finch put  victorian miscued caught mid the australians go   five match series lions winless tour stretched four matches the second match day fixture hobart monday chopra compiled opportunists century australia a keeper tim paine dropped regulation nick first englishman scored chopras  second century tour came  balls the fireworks came young gun ben foakes blasted   balls paceman john hastings bagged   marsh scans injury sunday already considered doubt monday aap </Contents>
+<Topic>horse</Topic>
+<Date>16 02 2013</Date>
+<Title>Black Caviar Lightning Stakes: Summary</Title>
+<Contents>grandstands gerard whateley drew morphett wrap black caviars triumph black caviar lightning stakes flemington </Contents>
+<Topic>athletics</Topic>
+<Date>16 02 2013</Date>
+<Title>Interview: Heath Francis</Title>
+<Contents>six time paralympic champion heath francis told grandstands quentin hull people flocked london paralympics main goal seeing oscar pistorius run </Contents>
+<Topic>sport</Topic>
+<Date>16 02 2013</Date>
+<Title>Shin, Ko lead Aussie Open</Title>
+<Contents>new zealand amateur lydia ko south korean star jiyai shin charged front rivals share massive six stroke lead going final round womens australian open royal canberra setting appears two horse race shot solid  par saturday  third round well clear nearest challenger beatriz recari spain  catch action final round abc  pm ko  jumped outright lead early front nine birdies second fourth sixth holes but former world number one shin responded immediately pegging back kos two shot lead eagle deep green side bunker par five sixth i short watch eagle i surprised went little sad i couldnt see shin said view australian opens full scoreboard a consistent shin moved overall lead ko bogeyed two holes back nine two holes teenager admitted difficulty the pair traded blows final holes round ko hitting birdie th level scores the six shot gap third place sets tantalising matchplay like scenario it makes comfortable us im focused score also keep looking score shin said but course lot chances birdie lot par fives i still keep watching players ko says looking forward playing alongside shin acknowledging duos playing styles similar shes pretty accurate player tee said a great player things i need learn  one facet two could different emotion show course when shin landed eagle fifth let celebration rip whereas ko noted calm manner good times bad i dont really like show expressions lot unless pretty big ko said there times past ive shown emotion expression even good led good hole meanwhile overnight leader colombian mariajo uribe forgettable day shooting disappointing  dropping almost entirely contention western australian kristie smith started day fourth also tumbled  queenslander sarah jane smith leading charge australians finishing round  equal ninth  four time tournament champion karrie webb also improved performance   three rounds remains many shots behind leaders pose threat aap </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>16 02 2013</Date>
+<Title>WA Liberal Party Announcement</Title>
+<Contents>this announcement wa liberal party  state election </Contents>
+<Topic>nuclear</Topic>
+<Date>16 02 2013</Date>
+<Title>N Korea said to be preparing for more nuclear tests</Title>
+<Contents>north korea reported told key ally china prepared stage one even two nuclear tests year a source direct knowledge message told reuters effort north korea force united states diplomatic talks pyongyang the source says nuclear tests could also accompanied another rocket launch year the isolated regime conducted third nuclear test tuesday drawing global condemnation south korea responded test conducting extensive combat drills near north korean border its ready a fourth fifth nuclear test rocket launch could conducted soon possibly year source said adding fourth nuclear test would much larger third equivalent  kilotons tnt the tests undertaken source said unless washington holds talks north korea abandons policy pyongyang sees attempts regime change north korea also reiterated long standing desire united states sign final peace agreement establish diplomatic relations said the north remains technically war united states south korea korean war ended  truce initial estimates weeks test south koreas military put yield equivalent   kilotons although final assessment yield material used explosion may weeks away  </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>16 02 2013</Date>
+<Title>Xenophon detained at Malaysian airport</Title>
+<Contents>independent senator nick xenophon detained authorities malaysia told security risk </Contents>
+<Topic>UNDEFINED</Topic>
+<Date>16 02 2013</Date>
+<Title>WA Liberal Party Announcement</Title>
+<Contents>this announcement wa liberal party  state election </Contents>

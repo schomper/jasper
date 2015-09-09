@@ -1,0 +1,20 @@
+<Topic>weather</Topic>
+<Date>18 01 2013</Date>
+<Title>ABC Weather</Title>
+<Contents>abc weather </Contents>
+<Topic>fires</Topic>
+<Date>18 01 2013</Date>
+<Title>Fires destroy homes and threaten towns in Gippsland</Title>
+<Contents>several towns south baw baw national park victorias gippsland threat fast moving fire burning control five kilometre front the glenmaggie fire burnt  hectares several homes lost the wind changed direction mid morning pushing fire north easterly direction towards town lake glenmaggie dawson glenmaggie heyfield seaton fire crews battling blaze since early hours morning managed save several homes cattle wandering properties lost fences pushed back onto country thats already burnt for latest emergency information visit abc emergency website abc gippsland website stay tuned abc local radio updates </Contents>
+<Topic>vandalism</Topic>
+<Date>18 01 2013</Date>
+<Title>Police hunt pool vandals</Title>
+<Contents>dimboola police looking vandals damaged towns swimming pool yesterday the pool closed thursday staff found empty broken bottles scattered across site officers say believe number trespassers broke pool wednesday night early yesterday morning the hindmarsh shire says second time incident happened pool asking anyone information contact police </Contents>
+<Topic>sport</Topic>
+<Date>18 01 2013</Date>
+<Title>Australia innings highlights</Title>
+<Contents>listen grandstand teams call australias embarrassing  sri lanka </Contents>
+<Topic>urban</Topic>
+<Date>18 01 2013</Date>
+<Title>Planning backflip on suburban shopping expansion</Title>
+<Contents>a newcastle business leader says apparent backflip planning department makes mockery current consultation process newcastles urban renewal strategy businesses hamilton wallsend raised concern strategy includes proposal limit suburban retail growth compete city centre but senior executive nsw planning released statement denying proposal wallsend town business association chair max mccorkell says sure believe we put businesses livelihood hands important people put plans theyre actually plans put dont seem like whats said said so really need little bit transparency little bit honesty positions especially council state government mr mccorkell says problem helping revive newcastles ailing cbd expense suburban shopping centres wed love see city going ahead see sitting west problems may lie everything east beaumont street hamilton seems get priorities said most money renewal newcastles inner city come residential areas western suburbs newcastle seem ones forgotten the newcastle urban renewal strategy available public comment march  </Contents>

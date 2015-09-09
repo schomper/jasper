@@ -1,0 +1,30 @@
+<DOC>
+<DOC_NAME>ABC Weather</DOC_NAME>
+<TEXT>
+ABC Weather Source ABC News  Duration 1min 32sec Topics weather australia 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Fires destroy homes and threaten towns in Gippsland</DOC_NAME>
+<TEXT>
+Several towns south Baw Baw National Park Victorias Gippsland threat fast moving fire burning control five kilometre front The Glenmaggie fire burnt 25000 hectares several homes lost The wind changed direction mid morning pushing fire north easterly direction towards town Lake Glenmaggie Dawson Glenmaggie Heyfield Seaton Fire crews battling blaze since early hours morning managed save several homes Cattle wandering properties lost fences pushed back onto country thats already burnt For latest emergency information visit ABC Emergency website ABC Gippsland website Stay tuned ABC Local radio updates Topics fires disasters and accidents rural beef cattle event heyfield 3858 vic First posted January 18 2013 000000 More stories Victoria 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Police hunt pool vandals</DOC_NAME>
+<TEXT>
+Dimboola police looking vandals damaged towns swimming pool yesterday The pool closed Thursday staff found empty broken bottles scattered across site Officers say believe number trespassers broke pool Wednesday night early yesterday morning The Hindmarsh Shire says second time incident happened pool asking anyone information contact police Topics vandalism lifestyle and leisure dimboola 3414 horsham 3400 First posted January 18 2013 100410 More stories Victoria 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Australia innings highlights</DOC_NAME>
+<TEXT>
+Listen Grandstand teams call Australias embarrassing 74 Sri Lanka Source ABC News  Duration 3min 55sec Topics sport cricket onedayseries 
+</TEXT>
+</DOC>
+<DOC>
+<DOC_NAME>Planning backflip on suburban shopping expansion</DOC_NAME>
+<TEXT>
+A Newcastle business leader says apparent backflip Planning Department makes mockery current consultation process Newcastles Urban Renewal Strategy Businesses Hamilton Wallsend raised concern strategy includes proposal limit suburban retail growth compete city centre But senior executive NSW Planning released statement denying proposal Wallsend Town Business Association Chair Max McCorkell says sure believe We put businesses livelihood hands important people put plans theyre actually plans put dont seem like whats said said So really need little bit transparency little bit honesty positions especially council State Government Mr McCorkell says problem helping revive Newcastles ailing CBD expense suburban shopping centres Wed love see city going ahead see sitting west problems may lie everything east Beaumont Street Hamilton seems get priorities said Most money renewal Newcastles inner city come residential areas western suburbs Newcastle seem ones forgotten The Newcastle Urban Renewal Strategy available public comment March 17 Topics urban development and planning small business retail newcastle 2300 hamilton 2303 wallsend 2287 First posted January 18 2013 074609 More stories New South Wales 
+</TEXT>
+</DOC>

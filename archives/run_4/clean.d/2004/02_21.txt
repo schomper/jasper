@@ -1,0 +1,40 @@
+<Topic>animal</Topic>
+<Date>21 02 2004</Date>
+<Title>Extinction rates the focus of UN conference</Title>
+<Contents>more  countries signed agreement aimed slowing rate plants wildlife become extinct the deal reached united nations led conference biodiversity kuala lumpur malaysia it provides establishment  global network protected areas rich diverse species correspondents say environmental campaigners disappointed similar plan agreed worlds oceans   bbc </Contents>
+<Topic>defence</Topic>
+<Date>21 02 2004</Date>
+<Title>ADF denies keeping anthrax vaccine effects secret</Title>
+<Contents>the australian defence force adf moved reassure families soldiers sent iraq afghanistan safety anthrax vaccine given this follows newspaper report saturday claiming vaccination program afghanistan suspended two months side effects suffered troops the report also claims soldiers iraq told defence health services director general air commodore tony austin says delay caused minor concern vaccine recipients whose side effects serious he says program resumed vaccine confirmed pure effective never cause alarm the international literature continues confirm vaccine safe said secondly monitor health comprehensively men women adf undergo periodic health assessments but i want reassure things lightly believe based good solid scientific evidence program safe effective </Contents>
+<Topic>transport</Topic>
+<Date>21 02 2004</Date>
+<Title>Qantas rejects business class booze-up fears</Title>
+<Contents>qantas rejected concerns flight attendants self service bars business class safety risk the flight attendants association says ordered members keep serving drinks passengers rather let use self service bars the airline took matter industrial relations commission friday qantas spokesman michael sharp rejected associations claims bars present safety risk safety paramount qantas said weve obviously looked closely there absolutely safety concerns preposterous say suggest its fantastic product </Contents>
+<Topic>bushfire</Topic>
+<Date>21 02 2004</Date>
+<Title>Fire contained in Adelaide Hills</Title>
+<Contents>firefighters south australia contained fire burning adelaide hills a spokeswoman country fire service says six crews sent blaze gorge road paracombe she says fire mainly burnt grass brought control </Contents>
+<Topic>terrorism</Topic>
+<Date>21 02 2004</Date>
+<Title>Expats flee Haiti</Title>
+<Contents>the united states urging  citizens haiti leave country soon possible international pressure political settlement growing violence continuing on saturday haitis main airport plenty people leaving sign panic the  americans haiti told government get soon possible violence worsens among people leaving couple canadian women told get airline flights cancelled we working childrens home really wanted go back but situation go home back canada   reuters </Contents>
+<Topic>police</Topic>
+<Date>21 02 2004</Date>
+<Title>Police report to coroner on girl's death</Title>
+<Contents>new south wales police preparing report coroner death two year old girl cooranbong south newcastle the girl four year old brother became ill last night allegedly eating medication found home lake macquarie police say ambulance officers called house pm aedt ambulance officers called house took children john hunter hospital girl pronounced dead arrival her brother stable condition observation </Contents>
+<Topic>carnivals</Topic>
+<Date>21 02 2004</Date>
+<Title>Street party launches Adelaide's Fringe</Title>
+<Contents>the adelaide  fringe launched spectacular style friday night tens thousands people joining huge street party city crowds lined dozen deep along parade route rundle park fringehub university adelaide parties uni grounds east end went early hours saturday morning the parade  entries ranging three metre tall pink fairies huge cellophane fish bikes artistic director karen hadfield overwhelmed i take hat people came design workshops percussion workshops community based totally people powered said there trucks cars bicycles foot theyve managed make beautiful beautiful designs police say crowds well behaved trouble reported throughout night evening soured little float stolen they say float would hard miss three metres high blue green colour large brown tree attached single axle trailer </Contents>
+<Topic>accidents</Topic>
+<Date>21 02 2004</Date>
+<Title>Sydney cliff fall kills man</Title>
+<Contents>a man died cliff face crumbled underneath sydneys northern beaches emergency services called site avalon shortly aest ambulance officers say two men believed tourists taking photos top boulder cliff gave way one man fell back safety friend fell  metres rescuers took hour find man already dead reached emergency services still scene attempting recover body </Contents>
+<Topic>transport</Topic>
+<Date>21 02 2004</Date>
+<Title>Biggest cruise ship docks in Darwin</Title>
+<Contents>the largest ever cruise ship visit darwin docked stokes hill wharf  passengers onboard the star princess twice size titanic it remain darwin later saturday evening but ship superseded bigger sister next year pos andrew mevissen says sapphire princess berth march   sapphire bigger   foot wider foot higher    tonnes heavier shell march said cruising getting bigger bigger fastest growing sector travel industry </Contents>
+<Topic>doctors</Topic>
+<Date>21 02 2004</Date>
+<Title>Doctors urged to become donors</Title>
+<Contents>the australian medical association ama new south wales urging doctors become organ donors nsw ama president dr choong siew yong says last december slightly two million nsw drivers registered organ donors   less half driving population he urging amas  doctors state lead example already done the campaign coincides organ donation awareness week began saturday </Contents>
