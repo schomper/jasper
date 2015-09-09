@@ -1,31 +1,37 @@
 #! /usr/bin/python3
 
+# TODO media-transcript for video files
+# TODO remove source section
+# TODO make into jason export
+
 from bs4 import BeautifulSoup
 import re
 import urllib.request
 import string
 import os
 import random
+import json
 
-def get_year_links(url):
-    """ Get the links of all the year tabs.
+OUTPUT_FILE = 'output.extended/'
 
-    Keyword arguments:
-    url -- url of the site to look for year tabs
-    """
-    f = urllib.request.urlopen(url)
-    soup = BeautifulSoup(f.read())
-    nav = soup.find("div", { "class" : "header subheader" })
+def get_year_links():
+    """ Get the links of all the relevant year tabs."""
     
-    links = []
-
-    for link in nav.findAll("a", href=True):
-        link = 'http://www.abc.net.au' + link["href"]
-        links.append(link)
-
+    links = ['http://www.abc.net.au/news/archive/2004', 
+             'http://www.abc.net.au/news/archive/2005', 
+             'http://www.abc.net.au/news/archive/2006', 
+             'http://www.abc.net.au/news/archive/2007', 
+             'http://www.abc.net.au/news/archive/2008', 
+             'http://www.abc.net.au/news/archive/2009', 
+             'http://www.abc.net.au/news/archive/2010', 
+             'http://www.abc.net.au/news/archive/2011', 
+             'http://www.abc.net.au/news/archive/2012', 
+             'http://www.abc.net.au/news/archive/2013', 
+             'http://www.abc.net.au/news/archive/2014']
+    
     return links
 
-def process_year(year_url):
+def get_day_links(year_url):
     """ Get link for every day in the year.
     
     Keyword arguments:
@@ -42,7 +48,7 @@ def process_year(year_url):
 
     return links
 
-def process_day(day, year_name):
+def process_day(day_link, year_name):
     """ Get the all the links to articles posted on a specified day.
     
     Keyword arguments:
@@ -51,11 +57,13 @@ def process_day(day, year_name):
     """
     article_list = []
 
-    day_name =  day.split('/')[-1].split(',')[2] + '_' + day.split('/')[-1].split(',')[1] + '.txt'
-    day_url = day
+    day = day_link.split('/')[-1].split(',')[1]
+    month = day_link.split('/')[-1].split(',')[2] 
+    date = day + ' ' + ' ' + month + ' ' + year_name
 
-    file_name = 'output/' + year_name + '/' + day_name 
+    day_name = day + '_' + month + '.txt'
 
+    file_name = OUTPUT_FILE + year_name + '/' + day_name 
 
     if os.path.exists(file_name):
         print('\tDay %s %s exists.' % (day_name, year_name))
@@ -63,7 +71,8 @@ def process_day(day, year_name):
     
     print('\tDay: %s %s.' % (day_name, year_name))
 
-    f = urllib.request.urlopen(day)
+    f = urllib.request.urlopen(day_link)
+
     soup = BeautifulSoup(f.read())
     nav = soup.find("div", { "class" : "nav pagination" })
     articles = soup.find('ul', {'class' : 'article-index'})
@@ -77,7 +86,7 @@ def process_day(day, year_name):
     
     while len(next_list) != 0:
         
-        f = urllib.request.urlopen(day)
+        f = urllib.request.urlopen(day_link)
         soup = BeautifulSoup(f.read())
 
         nav = soup.find("div", { "class" : "nav pagination" })
@@ -85,7 +94,7 @@ def process_day(day, year_name):
     
         next_list = nav.find_all('a', {'class' :'next'})
         if len(next_list):
-            day = day.split('?')[0] + next_list[0]['href']
+            day_link = day_link.split('?')[0] + next_list[0]['href']
 
         for link in articles.findAll("a", href=True):
             link = 'http://www.abc.net.au' + link["href"]
@@ -94,25 +103,69 @@ def process_day(day, year_name):
 
     
     f_ptr = open(file_name, 'w')
+    
+    days_information = {}
+    day_docs = []
 
-    for i in range(0, 10):
-        article = random.choice(article_list)
-        article_list.remove(article)
-        write_article(article, f_ptr)
+    for article in article_list:
+        doc = write_article(date, article, f_ptr)
+        day_docs.append(doc)
+
+    days_information['number'] = len(day_docs)
+    days_information['documents'] = day_docs
+
+    f_ptr.write(json.dumps(days_information, sort_keys=True, indent=4))
+
+def process_body(section):
+    body_items = []
+   
+    # Remove published
+    exists = section.findAll('p', {'class':'published'})
+
+    for e in range(0, len(exists)):
+        exists = section.find('p', {'class':'published'}).extract()
+
+    ###################################
+    # Get document topics
+    ###################################
+    topics = section.find('p', {'class':'topics'}).extract()
+    topics = topics.getText()
+    topics = re.sub(r"\s+", "", topics, flags=re.UNICODE)
+    topics = topics.replace('Topics:', '')
+    topics = topics.split(',')
+    
+    body_items.append(topics)
+    
+    ###################################
+    # Get body content
+    ###################################
+    contents = section.findAll('p')
+
+    para_string = ''
+    for para in contents:
+        para = para.getText()
+        para = para.strip()
+
+        para_string += para
+
+    body_items.append(para_string)
+
+    return body_items
 
 
-def write_article(url, f_ptr):
+def write_article(date, url, f_ptr):
     """ Write the information about the article to a file.
 
     Keyword arguments:
     url -- url of the article to write to file
     file_name -- name of the file to which to write
     """
-
+    document = {}
+    
     try: 
         f = urllib.request.urlopen(url)
-    except:
-        print('Skipping')
+    except urllib.error.URLError as e:
+        print(e.reason)
         return
 
     soup = BeautifulSoup(f.read())
@@ -120,52 +173,35 @@ def write_article(url, f_ptr):
     
     try:
         title = section.find('h1').getText()
-    except:
+        document['title'] = title
+        print('\t\t' + title)
+
+        body_items = process_body(section)
+        document['topics'] = body_items[0]
+        document['contents'] = body_items[1]
+        document['date'] = date
+
+    except Exception as e:
+        print('Exception:' + str(e))
         return
 
-    body = section.findAll('p')
-    print('\t\t' + title)
+    return document
 
-    para_list = []
-    for para in body:
-        para = para.getText()
-        
-        # Remove dashes safely
-        para = para.replace ("-", " ")
-
-        # Remove punctuation
-        punct = re.compile(r'([^A-Za-z0-9 ])')
-        para = punct.sub("", para)
-
-        para_list.append(para)
-
-    f_ptr.write('<DOC>\n')
-    f_ptr.write('<DOC_NAME>' + title + '</DOC_NAME>\n')
-    f_ptr.write('<TEXT>\n')
-
-    # Remove posted on date
-    para_list.pop(0)
-
-    for para in para_list:
-        f_ptr.write(para + ' ')
-
-    f_ptr.write('\n</TEXT>\n')
-    
-    f_ptr.write('</DOC>\n')
-
-if __name__ == "__main__":
-    
-    url = 'http://www.abc.net.au/news/archive/'    
-    year_links = get_year_links(url)
+def main():
+    year_links = get_year_links()
 
     for year in year_links:
         year_name = year.split('/')[-1]
         
         print('In year: ' + year_name)
-        if not os.path.exists('output/' + year_name):
-            os.makedirs('output/' + year_name)
+        if not os.path.exists(OUTPUT_FILE + year_name):
+            os.makedirs(OUTPUT_FILE + year_name)
         
-        days = process_year(year)
+        days = get_day_links(year)
 
         for day in days:
             process_day(day, year_name)
+
+
+if __name__ == "__main__":
+    main() 
