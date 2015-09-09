@@ -1,0 +1,6 @@
+Changed data set to news articles supplied by the abc.com.au archives.
+
+This is done for two reasons:
+1. The articles have distinct topics across articles reflecting the 
+    situation of the real world more accurately
+2. Greater amount of data than that of a wiki
