@@ -2,7 +2,6 @@
 
 # TODO media-transcript for video files
 # TODO remove source section
-# TODO make into jason export
 
 from bs4 import BeautifulSoup
 import re
