@@ -1,14 +1,14 @@
 #! /usr/bin/python3
 import os
+import sys
 from nltk.corpus import stopwords
 
-
-def get_documents(year, filename):
-
-    documents_list = []
+def get_documents(year, input_directory, filename):
     global undef_count
+    
+    documents_list = []
 
-    read_file = open('output.bak/' + str(year) + '/' + filename, 'r')
+    read_file = open(input_directory + str(year) + '/' + filename, 'r')
     line = read_file.readline()
     
     day, month = filename.split('.')[0].split('_')
@@ -111,6 +111,9 @@ def clean_line(line):
     # remove digits
     clean_line = ''.join([index for index in line if not index.isdigit()])
     
+    # make words lowercase
+    clean_line = clean_line.lower()
+    
     # remove stop words
     words_list = clean_line.split(' ')
     for word in words_list:
@@ -119,25 +122,24 @@ def clean_line(line):
     
     clean_line = ' '.join(words_list)
 
-    # make words lowercase
-    clean_line = clean_line.lower()
-    
     return clean_line
 
 def main():
     global topics
     doc_count = 0
-    
-    if not os.path.exists('clean_docs/'):
-        os.makedirs('clean_docs/')
+   
+    input_directory = sys.argv[1]
 
-    for year in range(2003, 2016):
-        if not os.path.exists('clean_docs/' + str(year)):
-            os.makedirs('clean_docs/' + str(year))
+    if not os.path.exists('clean.d/'):
+        os.makedirs('clean.d/')
 
-        for filename in os.listdir('output.bak/' + str(year)):
+    for year in range(2003, 2014):
+        if not os.path.exists('clean.d/' + str(year)):
+            os.makedirs('clean.d/' + str(year))
 
-            document_list = get_documents(year, filename)
+        for filename in os.listdir(input_directory + str(year)):
+
+            document_list = get_documents(year, input_directory, filename)
             doc_count += len(document_list)
     
             # reformat date in file name correctly
@@ -147,7 +149,7 @@ def main():
             day, month = filedate.split('_')
             filename = month + '_' + day + filename_suffix
 
-            new_file = open('clean_docs/' + str(year) + '/' + filename, 'w')
+            new_file = open('clean.d/' + str(year) + '/' + filename, 'w')
 
             for document in document_list:
                 new_file.write('<Topic>' + document[3] + '</Topic>\n')

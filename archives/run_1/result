@@ -1,4 +1,5 @@
-Topic 000   package
+Topic 000   
+   package
    
    –
    files
@@ -19,7 +20,8 @@ Topic 000   package
    guidelines
    lgpl
 
-Topic 001   aur
+Topic 001
+   aur
    
    package
    pkgbuild
@@ -82,7 +84,8 @@ Topic 003
    files
    archwiki
 
-Topic 004   package
+Topic 004   
+   package
    
    pkgbuild
    file
@@ -208,7 +211,8 @@ Topic 009
    arch
    upgraded
 
-Topic 010   install
+Topic 010
+   install
    package
    
    linux
@@ -250,7 +254,8 @@ Topic 011
    root
    use
 
-Topic 012   package
+Topic 012
+   package
    license
    pkgbuild
    build
@@ -292,7 +297,8 @@ Topic 013
    if
    s
 
-Topic 014   installation
+Topic 014
+   installation
    package
    linux
    pacman
@@ -313,7 +319,8 @@ Topic 014   installation
    search
    also
 
-Topic 015   arch
+Topic 015
+   arch
    system
    linux
    release
@@ -334,7 +341,8 @@ Topic 015   arch
    breakage
    it
 
-Topic 016   arch
+Topic 016
+   arch
    
    linux
    the
@@ -397,7 +405,8 @@ Topic 018
    git
    page
 
-Topic 019   linux
+Topic 019
+   linux
    arch
    install
    package

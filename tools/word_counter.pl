@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/perl
 use 5.014;
 
 while (<>){
