@@ -1,8 +1,505 @@
-[
-    {
-        "name": "Hello"
-    },
-    {
-        "name": "World"
+{
+    "num_articles": 100,
+    "articles": {
+        "0": {
+            "date": "04 03 2006",
+            "title": "'Bizarre' transport argument caused GST funding cut",
+            "topic_words": "tax"
+        },
+        "1": {
+            "date": "04 03 2006",
+            "title": "Customs escorting illegal fishing boat to shore",
+            "topic_words": "states"
+        },
+        "2": {
+            "date": "04 03 2006",
+            "title": "Power trounce Blues, Tigers down Dogs",
+            "topic_words": "australian"
+        },
+        "3": {
+            "date": "04 03 2006",
+            "title": "Former chief minister quits NT for WA",
+            "topic_words": "states"
+        },
+        "4": {
+            "date": "04 03 2006",
+            "title": "Hoggard rates Nagpur haul among his best",
+            "topic_words": "cricket"
+        },
+        "5": {
+            "date": "04 03 2006",
+            "title": "Living dead self-help book wins oddest title award",
+            "topic_words": "offbeat"
+        },
+        "6": {
+            "date": "04 03 2006",
+            "title": "Bayley misses bronze by narrow margin",
+            "topic_words": "cycling"
+        },
+        "7": {
+            "date": "04 03 2006",
+            "title": "Labor labels tax review a stunt",
+            "topic_words": "UNDEFINED"
+        },
+        "8": {
+            "date": "04 03 2006",
+            "title": "Crews battle shop fire in Healesville",
+            "topic_words": "industrial"
+        },
+        "9": {
+            "date": "04 03 2006",
+            "title": "Cook slams debut ton to leave England on top",
+            "topic_words": "cricket"
+        },
+        "10": {
+            "date": "13 11 2006",
+            "title": "20061113-closer-am2",
+            "topic_words": "UNDEFINED"
+        },
+        "11": {
+            "date": "13 11 2006",
+            "title": "Joyce may challenge IR changes in Senate",
+            "topic_words": "federal"
+        },
+        "12": {
+            "date": "13 11 2006",
+            "title": "Adelaide boss sees red over Hill collision",
+            "topic_words": "nbl"
+        },
+        "13": {
+            "date": "13 11 2006",
+            "title": "Indonesian Navy in Darwin for training exercise",
+            "topic_words": "navy"
+        },
+        "14": {
+            "date": "13 11 2006",
+            "title": "NT Govt to put police at Casuarina Bus exchange",
+            "topic_words": "states"
+        },
+        "15": {
+            "date": "13 11 2006",
+            "title": "Survey finds support for Chifley primary school",
+            "topic_words": "primary"
+        },
+        "16": {
+            "date": "13 11 2006",
+            "title": "Strauss lifts England against Blues",
+            "topic_words": "cricket"
+        },
+        "17": {
+            "date": "13 11 2006",
+            "title": "Aust to push for new Kyoto deal",
+            "topic_words": "alternative"
+        },
+        "18": {
+            "date": "13 11 2006",
+            "title": "Orkopoulos affair allegations continue",
+            "topic_words": "government"
+        },
+        "19": {
+            "date": "13 11 2006",
+            "title": "Abbott warns of Indigenous diabetes crisis",
+            "topic_words": "health"
+        },
+        "20": {
+            "date": "22 07 2006",
+            "title": "Roddick, Ginepri set up Indianapolis showdown",
+            "topic_words": "tennis"
+        },
+        "21": {
+            "date": "22 07 2006",
+            "title": "Microsoft MP3 player targets Apple's iPod",
+            "topic_words": "computers"
+        },
+        "22": {
+            "date": "22 07 2006",
+            "title": "Crows facing loss of McLeod",
+            "topic_words": "australian"
+        },
+        "23": {
+            "date": "22 07 2006",
+            "title": "Decision to be made on repatriation costs",
+            "topic_words": "foreign"
+        },
+        "24": {
+            "date": "22 07 2006",
+            "title": "Woods and Els on Open collision course",
+            "topic_words": "golf"
+        },
+        "25": {
+            "date": "22 07 2006",
+            "title": "Researchers investigate growing fish in effluent",
+            "topic_words": "fishing"
+        },
+        "26": {
+            "date": "22 07 2006",
+            "title": "Hundreds dead, missing in N Korea floods",
+            "topic_words": "floods"
+        },
+        "27": {
+            "date": "22 07 2006",
+            "title": "Magpies back to winning ways",
+            "topic_words": "australian"
+        },
+        "28": {
+            "date": "22 07 2006",
+            "title": "Some ferries leaving Lebanon half empty: Howard",
+            "topic_words": "unrest"
+        },
+        "29": {
+            "date": "22 07 2006",
+            "title": "Two NSW wind farms shelved",
+            "topic_words": "alternative"
+        },
+        "30": {
+            "date": "05 06 2006",
+            "title": "Socceroos, Netherlands go Dutch in friendly",
+            "topic_words": "soccer"
+        },
+        "31": {
+            "date": "05 06 2006",
+            "title": "Vic appeals against Osland petition of mercy ruling",
+            "topic_words": "law"
+        },
+        "32": {
+            "date": "05 06 2006",
+            "title": "Town camp bashing victim moved to Adelaide",
+            "topic_words": "crime"
+        },
+        "33": {
+            "date": "05 06 2006",
+            "title": "Minister defends teachers' manual on diversity",
+            "topic_words": "instructional"
+        },
+        "34": {
+            "date": "05 06 2006",
+            "title": "Govt stands firm on light rail proposal",
+            "topic_words": "transport"
+        },
+        "35": {
+            "date": "05 06 2006",
+            "title": "Drunk driver arrested twice in one day",
+            "topic_words": "police"
+        },
+        "36": {
+            "date": "05 06 2006",
+            "title": "Injury forces Leppitsch's retirement",
+            "topic_words": "australian"
+        },
+        "37": {
+            "date": "05 06 2006",
+            "title": "Tas cow tests positive for hydatid tapeworm",
+            "topic_words": "beef"
+        },
+        "38": {
+            "date": "05 06 2006",
+            "title": "Palestinians get first salaries paid in months",
+            "topic_words": "government"
+        },
+        "39": {
+            "date": "05 06 2006",
+            "title": "Support expected to continue for ethanol-blended fuel",
+            "topic_words": "oil"
+        },
+        "40": {
+            "date": "08 03 2006",
+            "title": "Resources sell-off hits share market",
+            "topic_words": "stockmarket"
+        },
+        "41": {
+            "date": "08 03 2006",
+            "title": "Vic fire crews ward off bushfire threat",
+            "topic_words": "bushfire"
+        },
+        "42": {
+            "date": "08 03 2006",
+            "title": "Labor denies tax hike claims",
+            "topic_words": "states"
+        },
+        "43": {
+            "date": "08 03 2006",
+            "title": "Thai protest group calls for Singapore goods boycott",
+            "topic_words": "world"
+        },
+        "44": {
+            "date": "08 03 2006",
+            "title": "Unions call for investigation into asbestos threat alert",
+            "topic_words": "diseases"
+        },
+        "45": {
+            "date": "08 03 2006",
+            "title": "Three candidates nominate for by-elections",
+            "topic_words": "elections"
+        },
+        "46": {
+            "date": "08 03 2006",
+            "title": "Dana Reeve dies of lung cancer",
+            "topic_words": "people"
+        },
+        "47": {
+            "date": "08 03 2006",
+            "title": "Minchin signals push for further IR reform",
+            "topic_words": "UNDEFINED"
+        },
+        "48": {
+            "date": "08 03 2006",
+            "title": "Major parties won't preference No Rodeos candidate",
+            "topic_words": "elections"
+        },
+        "49": {
+            "date": "08 03 2006",
+            "title": "Hobart hospital's staff crisis worsens",
+            "topic_words": "doctors"
+        },
+        "50": {
+            "date": "14 07 2006",
+            "title": "Koschitzke nearing return",
+            "topic_words": "australian"
+        },
+        "51": {
+            "date": "14 07 2006",
+            "title": "East Timor Govt sworn in",
+            "topic_words": "world"
+        },
+        "52": {
+            "date": "14 07 2006",
+            "title": "Rotavirus vaccine ruling 'unbelievable'",
+            "topic_words": "diseases"
+        },
+        "53": {
+            "date": "14 07 2006",
+            "title": "Tourists to flock to Boulia camel races",
+            "topic_words": "animals"
+        },
+        "54": {
+            "date": "14 07 2006",
+            "title": "Green group attacks Govt's Phillip Is rezoning decision",
+            "topic_words": "urban"
+        },
+        "55": {
+            "date": "14 07 2006",
+            "title": "Green faces audit over TCC",
+            "topic_words": "states"
+        },
+        "56": {
+            "date": "14 07 2006",
+            "title": "Green group backs wider adoption of water recycling plan",
+            "topic_words": "water"
+        },
+        "57": {
+            "date": "14 07 2006",
+            "title": "Police lay charges after Gold Coast drug raids",
+            "topic_words": "police"
+        },
+        "58": {
+            "date": "14 07 2006",
+            "title": "Govt water buy-up to go to Macquarie Marshes",
+            "topic_words": "water"
+        },
+        "59": {
+            "date": "14 07 2006",
+            "title": "Israel targets Hezbollah strongholds",
+            "topic_words": "unrest"
+        },
+        "60": {
+            "date": "06 04 2006",
+            "title": "Green group applauds land transfer",
+            "topic_words": "national"
+        },
+        "61": {
+            "date": "06 04 2006",
+            "title": "Corby lawyer furious over airport camera tampering claims",
+            "topic_words": "community"
+        },
+        "62": {
+            "date": "06 04 2006",
+            "title": "Katherine isolated by floodwaters",
+            "topic_words": "disasters"
+        },
+        "63": {
+            "date": "06 04 2006",
+            "title": "MP wants tougher licence conditions to ensure local news",
+            "topic_words": "information"
+        },
+        "64": {
+            "date": "06 04 2006",
+            "title": "No change to sick leave policy, dept says",
+            "topic_words": "industrial"
+        },
+        "65": {
+            "date": "06 04 2006",
+            "title": "Wind farm rejection baffles wind energy industry",
+            "topic_words": "alternative"
+        },
+        "66": {
+            "date": "06 04 2006",
+            "title": "New shire CEO looks to challenges",
+            "topic_words": "local"
+        },
+        "67": {
+            "date": "06 04 2006",
+            "title": "Solomon Is election count begins",
+            "topic_words": "government"
+        },
+        "68": {
+            "date": "06 04 2006",
+            "title": "Stanhope yet to commit mental health funds",
+            "topic_words": "states"
+        },
+        "69": {
+            "date": "06 04 2006",
+            "title": "Authorities remain on flood watch",
+            "topic_words": "floods"
+        },
+        "70": {
+            "date": "19 12 2006",
+            "title": "Freddie's captaincy questioned by British media",
+            "topic_words": "ashes"
+        },
+        "71": {
+            "date": "19 12 2006",
+            "title": "Dajka dodges jail on assault charge",
+            "topic_words": "cycling"
+        },
+        "72": {
+            "date": "19 12 2006",
+            "title": "Push on for more Indigenous jobs in NT cattle industry",
+            "topic_words": "indigenous"
+        },
+        "73": {
+            "date": "19 12 2006",
+            "title": "Migrants replace striking trolley collectors",
+            "topic_words": "industrial"
+        },
+        "74": {
+            "date": "19 12 2006",
+            "title": "Kadina High achieves well in HSC despite student tragedy",
+            "topic_words": "secondary"
+        },
+        "75": {
+            "date": "19 12 2006",
+            "title": "Court rejects hotel bid to trade until 6am",
+            "topic_words": "hospitality"
+        },
+        "76": {
+            "date": "19 12 2006",
+            "title": "Armidale council reveals UNE plan for Hinton art collection",
+            "topic_words": "university"
+        },
+        "77": {
+            "date": "19 12 2006",
+            "title": "Mulrunji decision 'disappointing'",
+            "topic_words": "black"
+        },
+        "78": {
+            "date": "19 12 2006",
+            "title": "20061219-closer-midday",
+            "topic_words": "UNDEFINED"
+        },
+        "79": {
+            "date": "17 03 2006",
+            "title": "Inquest told fire break team 'not needed'",
+            "topic_words": "courts"
+        },
+        "80": {
+            "date": "17 03 2006",
+            "title": "National museum buys Bodyline stump",
+            "topic_words": "library"
+        },
+        "81": {
+            "date": "17 03 2006",
+            "title": "Sunbeam turns loss around to record $4.8m profit",
+            "topic_words": "company"
+        },
+        "82": {
+            "date": "17 03 2006",
+            "title": "NASA probe captures 'cosmic growth spurt'",
+            "topic_words": "the"
+        },
+        "83": {
+            "date": "17 03 2006",
+            "title": "Group wants to lease Rockhampton-Yeppoon rail line",
+            "topic_words": "tourism"
+        },
+        "84": {
+            "date": "17 03 2006",
+            "title": "Elderly paedophile seeks lenient sentence",
+            "topic_words": "child"
+        },
+        "85": {
+            "date": "17 03 2006",
+            "title": "Lying allegations absurd, says PM",
+            "topic_words": "federal"
+        },
+        "86": {
+            "date": "17 03 2006",
+            "title": "Seb Coe in call to lazy youngsters",
+            "topic_words": "commonwealth"
+        },
+        "87": {
+            "date": "17 03 2006",
+            "title": "FC signs Knights striker Brockie",
+            "topic_words": "a"
+        },
+        "88": {
+            "date": "17 03 2006",
+            "title": "Opposition accuses PM of lying over AWB scandal",
+            "topic_words": "international"
+        },
+        "89": {
+            "date": "19 10 2006",
+            "title": "Green group fears fungus spread",
+            "topic_words": "environmental"
+        },
+        "90": {
+            "date": "19 10 2006",
+            "title": "Wall Street closes on record high",
+            "topic_words": "currency"
+        },
+        "91": {
+            "date": "19 10 2006",
+            "title": "United rule out appealing Kosmina ban",
+            "topic_words": "a"
+        },
+        "92": {
+            "date": "19 10 2006",
+            "title": "iPod, hazardous dummy win Shonky Awards",
+            "topic_words": "awards"
+        },
+        "93": {
+            "date": "19 10 2006",
+            "title": "Compo for Murray Valley irrigators ruled out",
+            "topic_words": "rural"
+        },
+        "94": {
+            "date": "19 10 2006",
+            "title": "AFL strike new deal with NT Govt",
+            "topic_words": "australian"
+        },
+        "95": {
+            "date": "19 10 2006",
+            "title": "Regional Vic job growth defies drought",
+            "topic_words": "states"
+        },
+        "96": {
+            "date": "19 10 2006",
+            "title": "Rice visits Seoul to secure N Korea sanctions support",
+            "topic_words": "government"
+        },
+        "97": {
+            "date": "19 10 2006",
+            "title": "Bush accepts Iraq, Vietnam comparison",
+            "topic_words": "unrest"
+        },
+        "98": {
+            "date": "19 10 2006",
+            "title": "Coonan dismisses claims of media frenzy",
+            "topic_words": "federal"
+        },
+        "99": {
+            "date": "27 12 2006",
+            "title": "Bush working on Iraq policy",
+            "topic_words": "unrest"
+        }
     }
-]
+}
