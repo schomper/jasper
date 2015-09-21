@@ -8,19 +8,10 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
         <script src="../node_modules/angular-bootstrap/ui-bootstrap.js"></script>
         <script src="../node_modules/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+        <script src="app.js"></script>
         <script>
-            var portalApp = angular.module('portalApp', ['ngRoute', 'ui.bootstrap', 'ui.bootstrap.pagination']);
-            /* Runs ones at the start of the app */
-            portalApp.config(function($routeProvider){
-                $routeProvider.
-                    when('/', {
-                        templateUrl: 'article-list.html',
-                        controller: 'ArticleListCtrl'
-                    }).
-                    otherwise({
-                        redirectTo: '/'
-                    });
-            });
+
 
             /* Create our own dependancy injection          *
              * removes the need to load data multiple times */
@@ -47,24 +38,45 @@
                 };
             });
 
+            portalApp.factory('topics', function($http){
+
+                function getData(callback) {
+                    $http({
+                        method: 'GET',
+                        url: 'topic_to_word.json',
+                        cache: true
+                    }).success(callback);
+                }
+
+                return {
+                    list: getData,
+                    find: function(name, callback) {
+                        getData(function(data) {
+                            var topic = data.filter(function(entry){
+                                return entry.name === name;
+                            })[0];
+                            callback(topic);
+                        });
+                    }
+                };
+            });
+
             portalApp.controller('ArticleListCtrl', function($scope, articles) {
-                $scope.totalItems = 100;
-                $scope.currentPage = 1;
-
-                $scope.setPage = function (pageNo) {
-                  $scope.currentPage = pageNo;
-                };
-
-                $scope.pageChanged = function() {
-                  $log.log('Page changed to: ' + $scope.currentPage);
-                };
-
-                $scope.maxSize = 5;
-
                 articles.list(function(articles) {
                     $scope.articles = articles.articles;
                 });
             });
+
+            portalApp.controller('TopicInfoCtrl', function($scope, topics) {
+                topics.list(function(topics) {
+                    $scope.topics = topics.Topics;
+                });
+
+                $scope.$watch('numWords', function(newValue, oldValue){
+                  console.log('new value is ' + newValue);
+                });
+            });
+
         </script>
     </head>
 
