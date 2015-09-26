@@ -62,7 +62,6 @@ def run_em(start, directory, corpus):
            or (index <= 2)) and (index <= global_att.EM_MAX_ITER):
 
         index += 1
-        t = time.process_time() 
         
         print("**** em iteration %d ****" % index)
         likelihood = 0
@@ -100,7 +99,6 @@ def run_em(start, directory, corpus):
             filename = "%s/%03d.gamma" % (directory, index)
             file_utils.save_gamma(filename, var_gamma, corpus.num_docs, model.num_topics)
 
-        meteric_file.write('iteration: %d time-taken: %d\n' %(index, time.process_time() - t))
 
     # output the final model
     filename = "%s/final" % directory

@@ -133,7 +133,7 @@ def main():
     if not os.path.exists('clean.d/'):
         os.makedirs('clean.d/')
 
-    for year in range(2003, 2014):
+    for year in range(2003, 2004):
         if not os.path.exists('clean.d/' + str(year)):
             os.makedirs('clean.d/' + str(year))
 

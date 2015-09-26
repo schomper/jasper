@@ -31,7 +31,7 @@ def print_topics(beta_file, vocab_file, nwords, directory):
 
         for i in range(nwords):
             file_pointer.write('   %s\n' % vocab[indices[i]])
-            print('   %s' % vocab[indices[i]])
+            print('   %s %f' % (vocab[indices[i]], topic[indices[i]]))
         
         topic_no += 1
         file_pointer.write("\n");

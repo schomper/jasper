@@ -4,24 +4,12 @@
       <h1>Topics</h1>
   </div>
 
-  Number of words to view:<input ng-model="numWords" type="text"/>
-  <!-- <ul> -->
-    <div>
-      <div ng-repeat="(topic, words) in topics">
-        {{topic}}
-        <div ng-init="your.max=10">
-          <div ng-repeat="word in words track by $index | orderBy:word" ng-if="$index<your.max">
-            {{word}}
-          </div>
-        </div>
-      </div>
+  <div ng-repeat='topic in topics track by $index' class="list-group">
+    Topic: {{$index}} 
+
+    <div ng-repeat='word in topic | limitTo: 10' class="list-group-item">
+      {{word}}
     </div>
-    <!-- <li ng-repeat=" | limitTo : 5">
-      <p>{{topic}}</p> -->
-      <!-- <div ng-repeat="word in words track by $index >
-        {{word}}
-      </div> -->
-    <!-- </li> -->
-  <!-- </ul> -->
+  </div>
 
 </div>

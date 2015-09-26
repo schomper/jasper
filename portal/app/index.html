@@ -43,7 +43,7 @@
                 function getData(callback) {
                     $http({
                         method: 'GET',
-                        url: 'topic_to_word.json',
+                        url: 'topics_and_words.json',
                         cache: true
                     }).success(callback);
                 }
@@ -69,7 +69,7 @@
 
             portalApp.controller('TopicInfoCtrl', function($scope, topics) {
                 topics.list(function(topics) {
-                    $scope.topics = topics.Topics;
+                    $scope.topics = topics;
                 });
 
                 $scope.$watch('numWords', function(newValue, oldValue){
