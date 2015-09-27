@@ -72,9 +72,19 @@
                     $scope.topics = topics;
                 });
 
+                // $scope.setTopicName = function(index) {
+                //   console.log($scope.topics[index].letters);
+                //   console.log('Click index ' + index);
+                //   $scope.topics[index].letters = 'Timothy';
+                //   console.log($scope.topics[index]);
+                //   console.log($scope.topics[index].letters);
+                // };
+
                 $scope.$watch('numWords', function(newValue, oldValue){
                   console.log('new value is ' + newValue);
                 });
+
+
             });
 
         </script>

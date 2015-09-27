@@ -5,7 +5,9 @@
   </div>
 
   <div ng-repeat='topic in topics track by $index' class="list-group">
-    Topic: {{$index}} 
+    Topic: <span ng-hide="topic.letters !== undefined">{{$index}}</span>
+           <span ngIf="topic.letters.length > 0">{{topic.letters}}</span>
+    <input type="text" ng-model="topic.letters">
 
     <div ng-repeat='word in topic | limitTo: 10' class="list-group-item">
       {{word}}
