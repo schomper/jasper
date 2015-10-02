@@ -1,13 +1,18 @@
 #! /usr/bin/python3
 
+# ------------------------------------------------------------------------------
+# Name: gen_vocab_file.py
+#
+# Usage: script takes a directory containing all the documents as input and
+# produces rewrites them in a formatted file. It also produces a vocab file
+# ------------------------------------------------------------------------------
 import sys
 import re
-import os
-import string
 from pathlib import Path
 from nltk.stem.snowball import SnowballStemmer
 
 vocab = []
+
 
 def find_list_index(list_list, value):
     for i in range(len(list_list)):
@@ -16,12 +21,14 @@ def find_list_index(list_list, value):
 
     return -1
 
+
 def strip_line(line, ltoken, rtoken):
     if line.startswith(ltoken):
         line = line[len(ltoken):]
     if line.endswith(rtoken):
         line = line[:-len(rtoken)]
     return line
+
 
 def process_line(line, output_file):
     global vocab
@@ -60,13 +67,15 @@ def process_line(line, output_file):
                 unique_words_count += 1
 
             # if the word is in the vocab and not present in document
-            elif (word in vocab) and (find_list_index(unique_words, vocab.index(word)) < 0):
+            elif (word in vocab) and \
+                 (find_list_index(unique_words, vocab.index(word)) < 0):
 
                 unique_words.append([vocab.index(word), 1])
                 unique_words_count += 1
 
             # if the word is in the vocab and present in document
-            elif (word in vocab) and (find_list_index(unique_words, vocab.index(word)) >= 0):
+            elif (word in vocab) and \
+                 (find_list_index(unique_words, vocab.index(word)) >= 0):
 
                 # increment word count for document
                 index = vocab.index(word)
@@ -79,7 +88,8 @@ def process_line(line, output_file):
         doc_info_string = ''
 
         for index_count in unique_words:
-            doc_info_string = doc_info_string + " " + str(index_count[0]) + ":" + str(index_count[1])
+            pair_string = str(index_count[0]) + ":" + str(index_count[1])
+            doc_info_string = doc_info_string + " " + pair_string
 
         output_file.write(doc_info_string + '\n')
 
@@ -89,24 +99,23 @@ def main():
     global vocab
 
     if len(sys.argv) != 3:
-        print("usage: .py <input_directory> <output_directory>\n")
+        print("usage: .py <input_directory> <output_group>\n")
         sys.exit(1)
 
-    #input_directory = Path(sys.argv[1])
+    input_directory = Path(sys.argv[1])
     day_file = Path(sys.argv[1])
     output_directory = sys.argv[2]
     output_file = open(output_directory + '.formatted', 'w')
 
-    #for year_directory in input_directory.iterdir():
-    #    for day_file in year_directory.iterdir():
-    #        print('Processing: {}'.format(day_file))
+    for year_directory in input_directory.iterdir():
+        for day_file in year_directory.iterdir():
+            print('Processing: {}'.format(day_file))
 
     with day_file.open() as f:
         lines = f.readlines()
 
     for line in lines:
         process_line(line, output_file)
-
 
     vocab_file = open(output_directory + '.vocab', 'w')
     print(len(vocab))

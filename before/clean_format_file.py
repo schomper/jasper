@@ -1,9 +1,17 @@
 #! /usr/bin/python3
+
+# ------------------------------------------------------------------------------
+# Name: clean_format_file.py
+# 
+# Usage: script takes a format file and turns it into a format file that is
+# usable by the C lda script
+# ------------------------------------------------------------------------------
 import sys
 
-if __name__ == '__main__':
+
+def main():
     if len(sys.argv) != 3:
-        print('./clean_format_file.py <dirty_format> <output_file>')
+        print('./clean_format_file.py <original_format> <c_lda_format>')
 
     format_file = sys.argv[1]
     output_file = sys.argv[2]
@@ -24,3 +32,6 @@ if __name__ == '__main__':
 
     format_ptr.close()
     output_ptr.close()
+
+if __name__ == '__main__':
+    main()
