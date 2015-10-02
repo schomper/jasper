@@ -1,2 +1,0 @@
-Noticed that vocab contains a large amount of plural words. Dataset now stems 
-words using the nltk SnowballStemmer
