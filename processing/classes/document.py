@@ -1,7 +1,7 @@
 class Document:
 
     def __init__(self, unique_word_count, topic, title, date):
-        print("Initiating Document...")
+        #print("Initiating Document...")
 
         # Init arrays
         self.words = [0 for x in range(int(unique_word_count))]

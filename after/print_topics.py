@@ -26,7 +26,11 @@ def print_topics(beta_file, vocab_file, nwords, directory):
 
         print('Topic %03d' % topic_no)
         topic = list(map(float, topic.split()))
-        indices = sorted(indices, key=lambda x: -topic[x])
+        print(len(topic))
+        try:
+            indices = sorted(indices, key=lambda x: -topic[x])
+        except:
+            print(x)
         #indices.sort(lambda x, y: -cmp(topic[x], topic[y]))
 
         for i in range(nwords):

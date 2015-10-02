@@ -3,8 +3,8 @@ from classes import document
 class Corpus:
     def __init__(self, folder_name):
 
-        print("Initiating Corpus...")
-
+        #print("Initiating Corpus...")
+        index = 2
         self.doc_list = []
         self.num_terms = 0
         self.num_docs = 0
@@ -17,16 +17,18 @@ class Corpus:
 
                 # Get the amount of unique words in this document
                 split_results = doc.split('|~|')
-                attempt_split = split_results[3].split(' ', 1) 
-                
+                attempt_split = split_results[3 + index].split(' ', 1)
+
                 if len(attempt_split) == 1:
+                    print('Skipping doc: ' + doc)
                     continue
 
-                num_words, rest = attempt_split 
+                num_words, rest = attempt_split
                 num_words = int(num_words)
 
-                doc = document.Document(num_words, split_results[0], split_results[1], split_results[2])
-
+                doc = document.Document(num_words, split_results[0 + index], split_results[1 + index], split_results[2 + index])
+                
+                print('rest: ' + rest)
                 # for each word
                 for word_index in range(0, num_words):
 
@@ -37,6 +39,7 @@ class Corpus:
                         pair = rest
 
                     # Split pair into word and count
+                    print(pair)
                     word, count = pair.split(':')
                     word = int(word)
                     count = int(count)
