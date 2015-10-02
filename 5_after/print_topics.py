@@ -27,27 +27,26 @@ def print_topics(beta_file, vocab_file, nwords, directory):
         print('Topic %03d' % topic_no)
         topic = list(map(float, topic.split()))
         print(len(topic))
-        try:
-            indices = sorted(indices, key=lambda x: -topic[x])
-        except:
-            print(x)
-        #indices.sort(lambda x, y: -cmp(topic[x], topic[y]))
+
+        indices = sorted(indices, key=lambda x: -topic[x])
+        # indices.sort(lambda x, y: -cmp(topic[x], topic[y]))
 
         for i in range(nwords):
             file_pointer.write('   %s\n' % vocab[indices[i]])
             print('   %s %f' % (vocab[indices[i]], topic[indices[i]]))
-        
+
         topic_no += 1
-        file_pointer.write("\n");
+        file_pointer.write("\n")
         print('\n')
 
-    file_pointer.close();
+    file_pointer.close()
 
 
 if __name__ == '__main__':
 
     if len(sys.argv) != 5:
-        print('usage: python topics.py <beta-file> <vocab-file> <num words> <directory>')
+        print('usage: python topics.py <beta-file> <vocab-file>\
+                                       <num words> <directory>')
         sys.exit(1)
 
     beta_file = sys.argv[1]

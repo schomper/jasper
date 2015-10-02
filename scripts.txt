@@ -22,12 +22,12 @@ Hierarchy............						These files could be merged..
 .....................
 
 New Doc..............
-find_index_word.py
-find_vocab_topics.py
-guess_new_document.py
+find_index_word.py							DONE
+find_vocab_topics.py						DONE
+guess_new_document.py						DONE
 .....................
 
-8. print_topics.py
+8. print_topics.py							DONE
 
 Portal...............
 beta_to_json.py

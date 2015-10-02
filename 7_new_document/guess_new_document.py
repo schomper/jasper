@@ -1,12 +1,23 @@
 #! /usr/bin/python3
+# ------------------------------------------------------------------------------
+# Name: guess_new_document.py
+#
+# Usage: Guess the topics of a new document by adding together the frequencies
+# and relationships of its words
+# ------------------------------------------------------------------------------
 import sys
 import json
 import re
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
+
 def main():
-    # TODO fill in checking
+    if len(sys.argv) != 5:
+        print('guess_new_document.py <document> <vocab_file> \
+               <vocab_details_file> <output_file>')
+        exit(1)
+
     document_file = sys.argv[1]
     vocab_file = sys.argv[2]
     vocab_details_file = sys.argv[3]
@@ -35,7 +46,7 @@ def main():
                 continue
 
             # TODO there is a bug here
-            if not word in vocab_index_data:
+            if word not in vocab_index_data:
                 print('Word is unknown: %s' % word)
 
             else:
@@ -45,11 +56,12 @@ def main():
 
                 for word_topic in word_topics:
 
-                    if not word_topic in document_hash:
+                    if word_topic not in document_hash:
                         print('Adding topic %s' % word_topic)
                         document_hash[word_topic] = 0
 
-                    document_hash[word_topic] += vocab_details_data[word_index]['topics'][word_topic] / word_total
+                    document_hash[word_topic] += vocab_details_data[
+                                word_index]['topics'][word_topic] / word_total
 
         line = document_ptr.readline()
 
@@ -60,7 +72,6 @@ def main():
     output_ptr.close()
 
 
-
 def clean_line(line):
     stemmer = SnowballStemmer('english')
 
@@ -69,8 +80,6 @@ def clean_line(line):
 
     # make words lowercase
     clean_line = clean_line.lower()
-
-
     words_list = clean_line.split(' ')
 
     for word in words_list:
@@ -95,7 +104,6 @@ def clean_line(line):
     clean_line = ' '.join(words_list)
 
     print(clean_line)
-
     return clean_line
 
 if __name__ == "__main__":

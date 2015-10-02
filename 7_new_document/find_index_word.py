@@ -1,4 +1,10 @@
 #! /usr/bin/python3
+
+# ------------------------------------------------------------------------------
+# Name: find_index_word.py
+#
+# Usage: Creates a hash with each word in the vocab being a key for its index
+# ------------------------------------------------------------------------------
 import sys
 import json
 
@@ -34,7 +40,6 @@ def main():
     output_ptr = open(output_file, 'w')
     output_ptr.write(json.dumps(overall_hash, sort_keys=True, indent=4))
     output_ptr.close()
-
 
 
 if __name__ == '__main__':

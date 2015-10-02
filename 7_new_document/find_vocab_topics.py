@@ -1,21 +1,27 @@
 #! /usr/bin/python3
+
 import sys
 import json
+# ------------------------------------------------------------------------------
+# Name: find_vocab_topics.py
+#
+# Usage: Creates a json hash files which has the word index as key and
+#        information about how often the word appears and in what context
+# ------------------------------------------------------------------------------
 
 
 def main():
 
     if len(sys.argv) != 4:
-        print('./find_vocab_topics.py <vocab_file> <word_assignment_file> <output_file>')
+        print('./find_vocab_topics.py <vocab_file>  \
+            <word_assignment_file> <output_file>')
         exit(1)
 
     vocab_file = sys.argv[1]
     word_assignment_file = sys.argv[2]
     output_file = sys.argv[3]
 
-    vocab = []
     overall_hash = {}
-
     vocab_index = 0
 
     vocab_ptr = open(vocab_file, 'r')
@@ -52,8 +58,9 @@ def main():
 
             word_index = int(word_index)
 
-            if not word_index in overall_hash:
-                print('overall hash does not contain this word index %d' % word_index)
+            if word_index not in overall_hash:
+                print('overall hash does not contain \
+                       this word index %d' % word_index)
                 exit(1)
 
             if topic_index in overall_hash[word_index]['topics']:
@@ -70,7 +77,6 @@ def main():
     output_ptr = open(output_file, 'w')
     output_ptr.write(json.dumps(overall_hash, sort_keys=True, indent=4))
     output_ptr.close()
-
 
 
 if __name__ == '__main__':
