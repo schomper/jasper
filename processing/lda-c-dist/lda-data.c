@@ -35,7 +35,6 @@ corpus* read_data(char* data_filename)
     int line_count = 0;
     while ((fscanf(fileptr, "%10d", &length) != EOF))
     {
-	printf("count: %d\n", line_count);
     c->docs = (document*) realloc(c->docs, sizeof(document)*(nd+1));
 	c->docs[nd].length = length;
 	c->docs[nd].total = 0;

@@ -4,12 +4,13 @@
     </div>
 
     <ul class="list-group">
-        <li ng-repeat="(id, article) in articles" class="list-group-item">
+        <li ng-repeat="(id, article) in articles | limitTo : totalDisplayed" class="list-group-item">
             <p>
                 <a href="#/{{id}}">{{article.title}}</a>
-                <span class="badge"> {{article.topic_words}}</span>
+                <span class="badge" ng-repeat="topic in article.top_topics | limitTo : 5"> {{topic}}</span>
             </p>
         </li>
+        <button class="btn" ng-click="loadMore()">Load more</button>
     </ul>
 
 </div>
