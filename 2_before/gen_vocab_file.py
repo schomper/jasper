@@ -99,7 +99,7 @@ def main():
     global vocab
 
     if len(sys.argv) != 3:
-        print("usage: .py <input_directory> <output_group>")
+        print("usage: gen_vocab_file.py <input_directory> <output_group>")
         sys.exit(1)
 
     input_directory = Path(sys.argv[1])
