@@ -2,17 +2,18 @@
 
 # ------------------------------------------------------------------------------
 # Name: clean_format_file.py
-# 
+#
 # Usage: script takes a format file and turns it into a format file that is
 # usable by the C lda script
 # ------------------------------------------------------------------------------
 import sys
 
-
 def main():
     if len(sys.argv) != 3:
         print('./clean_format_file.py <original_format> <c_lda_format>')
+        exit(1)
 
+    skipped = 0
     format_file = sys.argv[1]
     output_file = sys.argv[2]
 
@@ -26,12 +27,16 @@ def main():
 
         front, back = line.rsplit('|~|', 1)
         if back != '0':
-            output_ptr.write(line + '\n')
+            output_ptr.write(back + '\n')
+        else:
+            print('Skipping: ' + line)
+            skipped += 1
 
         line = format_ptr.readline()
 
     format_ptr.close()
     output_ptr.close()
+    print('Skipped: ' + str(skipped))
 
 if __name__ == '__main__':
     main()

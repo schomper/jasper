@@ -99,11 +99,10 @@ def main():
     global vocab
 
     if len(sys.argv) != 3:
-        print("usage: .py <input_directory> <output_group>\n")
+        print("usage: .py <input_directory> <output_group>")
         sys.exit(1)
 
     input_directory = Path(sys.argv[1])
-    day_file = Path(sys.argv[1])
     output_directory = sys.argv[2]
     output_file = open(output_directory + '.formatted', 'w')
 
@@ -111,11 +110,11 @@ def main():
         for day_file in year_directory.iterdir():
             print('Processing: {}'.format(day_file))
 
-    with day_file.open() as f:
-        lines = f.readlines()
+            with day_file.open() as f:
+                lines = f.readlines()
 
-    for line in lines:
-        process_line(line, output_file)
+            for line in lines:
+                process_line(line, output_file)
 
     vocab_file = open(output_directory + '.vocab', 'w')
     print(len(vocab))

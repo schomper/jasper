@@ -45,8 +45,7 @@ def print_topics(beta_file, vocab_file, nwords, directory):
 if __name__ == '__main__':
 
     if len(sys.argv) != 5:
-        print('usage: python topics.py <beta-file> <vocab-file>\
-                                       <num words> <directory>')
+        print('usage: python topics.py <beta-file> <vocab-file> <num words> <directory>')
         sys.exit(1)
 
     beta_file = sys.argv[1]

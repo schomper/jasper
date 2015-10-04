@@ -9,13 +9,10 @@ def get_documents(year, input_directory, filename):
 
     documents_list = []
 
-    read_file = open(filename, 'r')
-    # read_file = open(input_directory + str(year) + '/' + filename, 'r')
+    read_file = open(input_directory + str(year) + '/' + filename, 'r')
     line = read_file.readline()
 
-    # day, month = filename.split('.')[0].split('_')
-    day = '01'
-    month = '01'
+    day, month = filename.split('.')[0].split('_')
 
     while line != '':
         if(line == '<DOC>\n'):
@@ -135,43 +132,47 @@ def main():
     global topics
     doc_count = 0
 
+    if len(sys.argv) != 5:
+        print('./clean_documents <input_directory> <start_year> <end_year> <output_directory>')
+        exit(1)
+
     input_directory = sys.argv[1]
+    start_year = int(sys.argv[2])
+    end_year = int(sys.argv[3])
+    output_directory = sys.argv[4]
 
-    #if not os.path.exists('clean.d/'):
-    #    os.makedirs('clean.d/')
+    if not os.path.exists('clean.d/'):
+        os.makedirs('clean.d/')
 
-#    for year in range(2003, 2004):
- #       if not os.path.exists('clean.d/' + str(year)):
-  #          os.makedirs('clean.d/' + str(year))
+    for year in range(start_year, end_year + 1):
+        if not os.path.exists(output_directory + '/clean.d/' + str(year)):
+            os.makedirs(output_directory + 'clean.d/' + str(year))
 
-   #     for filename in os.listdir(input_directory + str(year)):
-    filename = 'corpus.txt'
-    year = '2001'
-
-    document_list = get_documents(year, input_directory, filename)
-    doc_count += len(document_list)
+        for filename in os.listdir(input_directory + str(year)):
+            document_list = get_documents(year, input_directory, filename)
+            doc_count += len(document_list)
 
             # reformat date in file name correctly
-    #filedate, filename_suffix = filename.rsplit('.')
-    #filename_suffix = '.' + filename_suffix
+            filedate, filename_suffix = filename.rsplit('.')
+            filename_suffix = '.' + filename_suffix
 
-    #day, month = filedate.split('_')
-    #filename = month + '_' + day + filename_suffix
+            day, month = filedate.split('_')
+            filename = month + '_' + day + filename_suffix
 
-    #new_file = open('clean.d/' + str(year) + '/' + filename, 'w')
-    new_file = open('clean.txt', 'w')
+            new_file = open(output_directory + '/clean.d/' + str(year) +
+                            '/' + filename, 'w')
 
-    for document in document_list:
-        new_file.write('<Topic>' + document[3] + '</Topic>\n')
-        new_file.write('<Date>' + document[0] + '</Date>\n')
-        new_file.write('<Title>' + document[1] + '</Title>\n')
-        new_file.write('<Contents>' + document[2] + '</Contents>\n')
+            for document in document_list:
+                if document[2] != '':
+                    new_file.write('<Topic>' + document[3] + '</Topic>\n')
+                    new_file.write('<Date>' + document[0] + '</Date>\n')
+                    new_file.write('<Title>' + document[1] + '</Title>\n')
+                    new_file.write('<Contents>' + document[2] + '</Contents>\n')
 
-    new_file.close()
+            new_file.close()
 
     print(str(doc_count) + '\n')
-    print(topics)
-    print(str(undef_count))
+    print('Undefined: ' + str(undef_count))
 
 if __name__ == '__main__':
     topics = []

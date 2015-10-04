@@ -14,8 +14,7 @@ import sys
 
 def main():
     if len(sys.argv) != 6:
-        print('./gen_sub_topics.py <gamma_file> <format_file> \
-                <lowest_significant> <num_topics> <output_string>')
+        print('./gen_sub_topics.py <gamma_file> <format_file> <lowest_significant> <num_topics> <output_string>')
         exit(1)
 
     gamma_file = sys.argv[1]
@@ -44,6 +43,7 @@ def main():
         topics = gamma_line.split(' ')
 
         for x in range(0, len(topics)):
+            print(count)
             if float(topics[x]) > lowest:
                 output_files[x].write(str(count) + '|~|' + topics[x]
                                                  + '|~|' + format_line + '\n')
