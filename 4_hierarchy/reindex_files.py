@@ -29,7 +29,7 @@ if __name__ == '__main__':
         original_vocab[index] = original_vocab[index].strip()
 
     vocab_out_ptr = open(group_name + '.vocab', 'w')
-    format_out_ptr = open(group_name + '.format', 'w')
+    format_out_ptr = open(group_name + '.formatted', 'w')
 
     with open(format_file, 'r') as format_ptr:
         lines = format_ptr.readlines()
