@@ -36,15 +36,15 @@ def main():
     working_dir = sys.argv[1]
 
     print('Generating vocab file')
-    command = JASPER + '2_before/gen_vocab_file.py '\
-                     + working_dir + '/clean.d '\
-                     + working_dir + '/initial'
-    os.system(command)
+#    command = JASPER + '2_before/gen_vocab_file.py '\
+#                     + working_dir + '/clean.d '\
+#                     + working_dir + '/initial'
+#    os.system(command)
 
     num_topics = eval(input("Select the number of topics: "))
-    num_words = eval(input("Select the number of words to print: "))
+#    num_words = eval(input("Select the number of words to print: "))
 
-    clean_process_print(num_topics, num_words, working_dir)
+#    clean_process_print(num_topics, num_words, working_dir)
 
     lowest_significant = eval(input("Select the lowest significant num: "))
 
@@ -52,7 +52,7 @@ def main():
     os.system(JASPER + '4_hierarchy/gen_sub_topics.py '
                      + working_dir + '/out/final.gamma '
                      + working_dir + '/initial.formatted '
-                     + lowest_significant + ' ' + num_topics + ' '
+                     + str(lowest_significant) + ' ' + str(num_topics) + ' '
                      + working_dir + '/hierarchy')
 
     for index in range(0, num_topics):

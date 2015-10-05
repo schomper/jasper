@@ -43,7 +43,6 @@ def main():
         topics = gamma_line.split(' ')
 
         for x in range(0, len(topics)):
-            print(count)
             if float(topics[x]) > lowest:
                 output_files[x].write(str(count) + '|~|' + topics[x]
                                                  + '|~|' + format_line + '\n')
