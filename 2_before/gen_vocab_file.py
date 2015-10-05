@@ -107,8 +107,8 @@ def main():
     output_file = open(output_directory + '.formatted', 'w')
 
     for year_directory in input_directory.iterdir():
+        print('Processing: {}'.format(year_directory))
         for day_file in year_directory.iterdir():
-            print('Processing: {}'.format(day_file))
 
             with day_file.open() as f:
                 lines = f.readlines()

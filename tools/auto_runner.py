@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 import os
 import sys
 
@@ -7,14 +9,15 @@ ALPHA = 0.02
 
 def clean_process_print(num_topics, num_words, working_dir):
     print('Cleaning Format File')
-    os.system(JASPER + '2_before/clean_format_file.py '
-                     + working_dir + '/initial.formatted '
-                     + working_dir + '/c_lda.formatted')
+    command = JASPER + '2_before/clean_format_file.py '\
+                     + working_dir + '/initial.formatted '\
+                     + working_dir + '/c_lda.formatted'
+    os.system(command)
 
     print('Processing LDAs')
     os.system(JASPER + '3_processing/lda est '
                      + str(ALPHA) + ' ' + str(num_topics) + ' '
-                     + working_dir + '/settings '
+                     + working_dir + '/settings.txt '
                      + working_dir + '/c_lda.formatted random '
                      + working_dir + '/out')
 
@@ -22,7 +25,7 @@ def clean_process_print(num_topics, num_words, working_dir):
     os.system(JASPER + '5_after/print_topics.py '
                      + working_dir + '/out/final.beta '
                      + working_dir + '/initial.vocab '
-                     + str(num_words) + ' ' + working_dir)
+                     + str(num_words) + ' ' + working_dir + '/')
 
 
 def main():
@@ -32,9 +35,11 @@ def main():
 
     working_dir = sys.argv[1]
 
-    os.system(JASPER + '2_before/gen_vocab_file.py '
-                     + working_dir + '/clean.d '
-                     + working_dir + '/initial')
+    print('Generating vocab file')
+    command = JASPER + '2_before/gen_vocab_file.py '\
+                     + working_dir + '/clean.d '\
+                     + working_dir + '/initial'
+    os.system(command)
 
     num_topics = eval(input("Select the number of topics: "))
     num_words = eval(input("Select the number of words to print: "))
@@ -51,6 +56,8 @@ def main():
                      + working_dir + '/hierarchy')
 
     for index in range(0, num_topics):
+        os.mkdir(working_dir + '/' + str(index))
+
         os.system(JASPER + '4_hierarchy/reindex_files.py '
                          + working_dir + '/hierarchy' + str(index) + '.txt '
                          + working_dir + '/initial.vocab '
@@ -67,4 +74,7 @@ def main():
 
 
 if __name__ == '__main__':
+    # TODO: Generate settings file through user input
+    # TODO: Allow to run from certain step onwards
+    # TODO: Have bars to represent progress instead of sentence output
     main()
