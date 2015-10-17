@@ -1,40 +1,65 @@
 #! /usr/bin/python3
-import re
 import sys
 import json
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
 
-def clean_line(line):
+def remove_digits(line):
+    """ (str) -> str
+
+    Return passed in string without any digits in it
+    """
+    digitless = []
+    tokens = line.split('')
+
+    for token in tokens:
+        if not token.isdigit() and token != '':
+            digitless.append(token)
+
+    line = ' '.join(digitless)
+    return line
+
+
+def stem_line(line):
+    """ (str) -> str
+
+    Return passed in string with all words stemmed
+    """
     stemmer = SnowballStemmer('english')
-    new_words = []
-    
-    # remove digits
-    clean_line = ''.join([index for index in line if not index.isdigit()])
 
-    # make words lowercase
-    clean_line = clean_line.lower()
-    words_list = clean_line.split(' ')
+    tokens = line.split(' ')
+    tokens = [stemmer.stem(token) for token in tokens]
 
-    #print(words_list)
-    for word in words_list:
-        word = word.strip(' ')
+    return ' '.join(tokens)
 
-        # remove stop words
-        if word in stopwords.words('english'):
-            continue
 
-        word = re.sub(r'\s+', "", word)
-        if word == '':
-            continue
+def remove_stop_words(line):
+    """ (str) -> str
 
-        word = stemmer.stem(word)
-        new_words.append(word)
+    Return passed in string with all stop words removed
+    """
+    stopless = []
+    tokens = line.split(' ')
 
-    clean_line = ' '.join(new_words)
+    for token in tokens:
+        if token not in stopwords:
+            stopless.append(token)
 
-    return clean_line
+    return ' '.join(stopless)
+
+
+def clean_line(line):
+    """ (str) -> str
+
+    Return the string after stemming the words
+    """
+    line = line.lower()
+    line = remove_digits(line)
+    line = remove_stop_words(line)
+    line = stem_line(line)
+
+    return line
 
 
 def classify(document_contents, vocab_details, vocab_index):
@@ -73,13 +98,11 @@ def classify(document_contents, vocab_details, vocab_index):
 
 
 def compare_top(classed_topics, known_topics):
-    #print('\n')
-    #print(str(classed_topics))
-    #print('\t' + str(known_topics))
-    if str(classed_topics[0]) == str(known_topics[0]):
-        return True
-    else:
-        return False
+    """ (list, list) -> boolean
+
+    Returns true if first element of both lists are the same
+    """
+    return str(classed_topics[0]) == str(known_topics[0])
 
 
 def main():
