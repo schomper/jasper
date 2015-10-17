@@ -62,32 +62,31 @@ def clean_line(line):
     return line
 
 
-def classify(document_contents, vocab_details, vocab_index):
+def classify(contents, vocab_details, vocab_index):
+    """ (str, dict, dict) -> list
+
+    Return the document's topics in order of relevance
+    """
+    topics = []
     document_hash = {}
 
-    document_words = document_contents.split(' ')
+    document_words = contents.split(' ')
 
     for word in document_words:
-        if word == '':
-            continue
+        assert word != ''
+        assert word in vocab_index
 
-        if word not in vocab_index:
-            print('Word is unknown: %s' % word)
-            continue
+        word_index = str(vocab_index[word])
+        word_total = vocab_details[word_index]['total']
+        word_topics = vocab_details[word_index]['topics']
 
-        else:
-            word_index = str(vocab_index[word])
-            word_total = vocab_details[word_index]['total']
-            word_topics = vocab_details[word_index]['topics']
+        for topic in word_topics:
+            if topic not in document_hash:
+                document_hash[topic] = 0
 
-            for topic in word_topics:
-                if topic not in document_hash:
-                    document_hash[topic] = 0
+            document_hash[topic] += \
+                vocab_details[word_index]['topics'][topic] / word_total
 
-                document_hash[topic] += \
-                    vocab_details[word_index]['topics'][topic] / word_total
-
-    topics = []
     for key in document_hash:
         topics.append(document_hash[key])
 
@@ -97,18 +96,23 @@ def classify(document_contents, vocab_details, vocab_index):
     return indices
 
 
-def compare_top(classed_topics, known_topics):
-    """ (list, list) -> boolean
+def compare_topics(classed, known, amount):
+    """ (list, list, int) -> boolean
 
-    Returns true if first element of both lists are the same
+    Returns true the number of elements in amount are in the correct order
     """
-    return str(classed_topics[0]) == str(known_topics[0])
+    correct = True
+
+    for index in range(amount):
+        if str(classed[index]) != str(known[index]):
+            correct = False
+            break
+
+    return correct
 
 
 def main():
     top_count = 0
-    top_three_count = 0
-    order_count = 0
 
     if len(sys.argv) != 3:
         print('./test_doc_guess_algorithm.py <folder> <output>')
@@ -143,18 +147,13 @@ def main():
         line = format_lines[index]
         line = line.strip()
 
-        if index % 1000 == 0:
-            print(str(index))
         known_topics = topic_lines[index].strip().split(' ')
         document_contents = line.split('|~|')[3]
         document_contents = clean_line(document_contents)
         classed_doc = classify(document_contents, vocab_details, vocab_index)
-        #print(str(classed_doc))
-        # Compare the classification against the known
-        if compare_top(classed_doc, known_topics):
-            top_count += 1
-        # compare_top_three(classified_doc)
-        # compare_order(classified_doc)
+
+        if compare_topics(classed_doc, known_topics, 1):
+            top_count = 1 + top_count
 
     print('Top Correct: ' + str(top_count / num_docs))
 
