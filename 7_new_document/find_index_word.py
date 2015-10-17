@@ -7,13 +7,11 @@
 # ------------------------------------------------------------------------------
 import sys
 import json
+from utils import check_start
 
 
 def main():
-
-    if len(sys.argv) != 3:
-        print('./find_vocab_topics.py <vocab_file> <output_file>')
-        exit(1)
+    check_start('./find_vocab_topics.py <vocab_file> <output_file>', 3)
 
     vocab_file = sys.argv[1]
     output_file = sys.argv[2]

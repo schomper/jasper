@@ -7,16 +7,12 @@
 # ------------------------------------------------------------------------------
 import sys
 import json
-import re
-from nltk.corpus import stopwords
-from nltk.stem.snowball import SnowballStemmer
+from utils import clean_line, check_start
 
 
 def main():
-    if len(sys.argv) != 5:
-        print('guess_new_document.py <document> <vocab_file> \
-               <vocab_details_file> <output_file>')
-        exit(1)
+    check_start('guess_new_document.py <document> <vocab_file> ' +
+                '<vocab_details_file> <output_file>', 5)
 
     document_file = sys.argv[1]
     vocab_file = sys.argv[2]
@@ -71,40 +67,6 @@ def main():
     output_ptr.write(json.dumps(document_hash, sort_keys=True, indent=4))
     output_ptr.close()
 
-
-def clean_line(line):
-    stemmer = SnowballStemmer('english')
-
-    # remove digits
-    clean_line = ''.join([index for index in line if not index.isdigit()])
-
-    # make words lowercase
-    clean_line = clean_line.lower()
-    words_list = clean_line.split(' ')
-
-    for word in words_list:
-        index = words_list.index(word)
-
-        words_list[index] = word.strip(' ')
-
-        # remove stop words
-        if words_list[index] in stopwords.words('english'):
-            removed = words_list.pop(index)
-            print('removed: %s' % removed)
-            continue
-
-        words_list[index] = re.sub(r'\s+', "", word)
-        if words_list[index] == '':
-            removed = words_list.pop(index)
-            print('removed: %s' % removed)
-            continue
-
-        words_list[index] = stemmer.stem(word)
-
-    clean_line = ' '.join(words_list)
-
-    print(clean_line)
-    return clean_line
 
 if __name__ == "__main__":
     main()

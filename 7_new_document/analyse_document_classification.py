@@ -1,65 +1,7 @@
 #! /usr/bin/python3
 import sys
 import json
-from nltk.corpus import stopwords
-from nltk.stem.snowball import SnowballStemmer
-
-
-def remove_digits(line):
-    """ (str) -> str
-
-    Return passed in string without any digits in it
-    """
-    digitless = []
-    tokens = line.split('')
-
-    for token in tokens:
-        if not token.isdigit() and token != '':
-            digitless.append(token)
-
-    line = ' '.join(digitless)
-    return line
-
-
-def stem_line(line):
-    """ (str) -> str
-
-    Return passed in string with all words stemmed
-    """
-    stemmer = SnowballStemmer('english')
-
-    tokens = line.split(' ')
-    tokens = [stemmer.stem(token) for token in tokens]
-
-    return ' '.join(tokens)
-
-
-def remove_stop_words(line):
-    """ (str) -> str
-
-    Return passed in string with all stop words removed
-    """
-    stopless = []
-    tokens = line.split(' ')
-
-    for token in tokens:
-        if token not in stopwords:
-            stopless.append(token)
-
-    return ' '.join(stopless)
-
-
-def clean_line(line):
-    """ (str) -> str
-
-    Return the string after stemming the words
-    """
-    line = line.lower()
-    line = remove_digits(line)
-    line = remove_stop_words(line)
-    line = stem_line(line)
-
-    return line
+from utils import clean_line, check_start
 
 
 def classify(contents, vocab_details, vocab_index):
@@ -112,11 +54,8 @@ def compare_topics(classed, known, amount):
 
 
 def main():
+    check_start('./test_doc_guess_algorithm.py <folder> <output>', 3)
     top_count = 0
-
-    if len(sys.argv) != 3:
-        print('./test_doc_guess_algorithm.py <folder> <output>')
-        exit(1)
 
     # Input naming
     folder = sys.argv[1]
@@ -155,7 +94,7 @@ def main():
         if compare_topics(classed_doc, known_topics, 1):
             top_count = 1 + top_count
 
-    print('Top Correct: ' + str(top_count / num_docs))
+    print('Topics Correct: ' + str(top_count / num_docs))
 
 if __name__ == '__main__':
     main()

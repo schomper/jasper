@@ -1,11 +1,10 @@
 #! /usr/bin/python3
 import sys
+from utils import check_start
 
 
 def main():
-    if len(sys.argv) != 3:
-        print('./gen_topics_list.py <gamma_file> <output>')
-        exit(1)
+    check_start('./gen_topics_list.py <gamma_file> <output>', 3)
 
     input_file = sys.argv[1]
     output_file = sys.argv[2]
@@ -20,7 +19,6 @@ def main():
         topics = [float(x) for x in line.split()]
         indices = list(range(len(topics)))
         indices = sorted(indices, key=lambda x: -topics[x])
-
 
         line = ' '.join(map(str, indices))
         output_ptr.write(line + '\n')

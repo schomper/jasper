@@ -1,7 +1,7 @@
 #! /usr/bin/python3
-
 import sys
 import json
+from utils import check_start
 # ------------------------------------------------------------------------------
 # Name: find_vocab_topics.py
 #
@@ -11,11 +11,8 @@ import json
 
 
 def main():
-
-    if len(sys.argv) != 4:
-        print('./find_vocab_topics.py <vocab_file>  \
-            <word_assignment_file> <output_file>')
-        exit(1)
+    check_start('./find_vocab_topics.py <vocab_file> ' +
+                '<word_assignment_file> <output_file>', 4)
 
     vocab_file = sys.argv[1]
     word_assignment_file = sys.argv[2]
