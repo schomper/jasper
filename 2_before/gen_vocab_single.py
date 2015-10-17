@@ -48,7 +48,6 @@ def process_line(line, output_file):
         unique_words_count = 0
 
         line = strip_line(line, '<Contents>', '</Contents>\n')
-        output_file.write(line + '|~|')
         document_words = line.split(' ')
 
         for word in document_words:
@@ -100,22 +99,20 @@ def main():
     global vocab
 
     if len(sys.argv) != 3:
-        print("usage: gen_vocab_file.py <input_directory> <output_group>")
+        print("usage: gen_vocab_single.py <input_directory> <output_group>")
         sys.exit(1)
 
     input_directory = Path(sys.argv[1])
     output_directory = sys.argv[2]
     output_file = open(output_directory + '.formatted', 'w')
 
-    for year_directory in input_directory.iterdir():
-        print('Processing: {}'.format(year_directory))
-        for day_file in year_directory.iterdir():
+    for day_file in input_directory.iterdir():
 
-            with day_file.open() as f:
-                lines = f.readlines()
+        with day_file.open() as f:
+            lines = f.readlines()
 
-            for line in lines:
-                process_line(line, output_file)
+        for line in lines:
+            process_line(line, output_file)
 
     vocab_file = open(output_directory + '.vocab', 'w')
     print(len(vocab))
