@@ -14,8 +14,10 @@ def classify(contents, vocab_details, vocab_index):
 
     document_words = contents.split(' ')
 
+    print(contents)
     for word in document_words:
         assert word != ''
+        print(word)
         assert word in vocab_index
 
         word_index = str(vocab_index[word])
@@ -150,6 +152,7 @@ def main():
 
         known_topics = topic_lines[index].strip().split(' ')
         document_contents = line.split('|~|')[3]
+        print(document_contents)
         document_contents = clean_line(document_contents)
         classed_doc = classify(document_contents, vocab_details, vocab_index)
 

@@ -129,7 +129,10 @@ def format_line(line):
 def get_contents(line):
     assert('<Contents>' in line)
 
-    line = strip_line(line, '<Contents>', '</Contents>\n')
+    return strip_line(line, '<Contents>', '</Contents>\n')
+
+
+def clean_contents(line):
     line = clean_line(line)
     line = format_line(line)
 
@@ -152,11 +155,14 @@ def process_corpus(lines):
         topic = get_topic(lines.pop(0))
         date = get_date(lines.pop(0))
         title = get_title(lines.pop(0))
-        contents = get_contents(lines.pop(0))
+        actual_contents = get_contents(lines.pop(0))
+
+        contents = clean_contents(actual_contents)
 
         document.append(topic)
         document.append(date)
         document.append(title)
+        document.append(actual_contents)
         document.append(contents)
 
         documents.append(document)
@@ -217,9 +223,9 @@ def correct_documents(good_vocab, documents):
         if count % 1000 == 0:
             print('\tprocessing document ' + str(count))
 
-        document[3] = get_fixed_contents(document[3], good_vocab)
+        document[4] = get_fixed_contents(document[4], good_vocab)
 
-        if document[3] != None:
+        if document[4] != None:
             correct.append(document)
 
         count += 1
@@ -238,7 +244,7 @@ def print_corpus(documents, vocab, output):
     output_file = open(output + '/c_lda.formatted', 'w')
 
     for document in documents:
-        output_file.write(document[3] + '\n')
+        output_file.write(document[4] + '\n')
 
     output_file.close()
 
