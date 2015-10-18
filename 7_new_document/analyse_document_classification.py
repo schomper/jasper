@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 import sys
-import json
 from utils import clean_line, check_start
 
 
@@ -14,13 +13,13 @@ def classify(contents, vocab_details, vocab_index):
 
     document_words = contents.split(' ')
 
-    print(contents)
     for word in document_words:
         assert word != ''
-        print(word)
-        assert word in vocab_index
 
-        word_index = str(vocab_index[word])
+        if word not in vocab_index:
+            continue
+
+        word_index = vocab_index[word]
         word_total = vocab_details[word_index]['total']
         word_topics = vocab_details[word_index]['topics']
 
@@ -51,14 +50,11 @@ def compare_topics_order(classed, known, amount):
 
     Returns true the number of elements in amount are in the correct order
     """
-    correct = True
-
     for index in range(amount):
         if str(classed[index]) != str(known[index]):
-            correct = False
-            break
+            return False
 
-    return correct
+    return True
 
 
 def compare_topic_slice(classed, known, cutoff):
@@ -104,7 +100,7 @@ def compare_position_offset(classed, known, offset):
                     correct = True
                     break
 
-            if not plus >= len(range(known)):
+            if not plus >= len(known):
                 if(str(classed[index]) == str(known[plus])):
                     correct = True
                     break
@@ -115,34 +111,106 @@ def compare_position_offset(classed, known, offset):
     return True
 
 
-def main():
-    check_start('./test_doc_guess_algorithm.py <folder> <output>', 3)
-    topic_order_count = 0
-    topic_feeling_count = 0
-    topic_offset_count = 0
+def get_vocab_details(vocab_lines, word_assignment_lines):
+    overall_hash = {}
 
+    # Process each line of the vocab file
+    for index in range(len(vocab_lines)):
+        word_hash = {}
+
+        line = vocab_lines[index].strip()
+
+        word_hash['word'] = line
+        word_hash['topics'] = {}
+        word_hash['total'] = 0
+        overall_hash[index] = word_hash
+
+    # process each line of the word assignment file
+    for index in range(len(word_assignment_lines)):
+        line = word_assignment_lines[index].strip()
+
+        word_topics = line.split(' ')
+        word_topics.pop(0)               # remove word amount
+
+        for word_topic in word_topics:
+            word_index, topic_index = word_topic.split(':')
+
+            word_index = int(word_index)
+
+            if word_index not in overall_hash:
+                print('overall hash does not contain \
+                       this word index %d' % word_index)
+                exit(1)
+
+            if topic_index in overall_hash[word_index]['topics']:
+                overall_hash[word_index]['topics'][topic_index] += 1
+            else:
+                overall_hash[word_index]['topics'][topic_index] = 1
+
+            overall_hash[word_index]['total'] += 1
+
+    return overall_hash
+
+
+def get_vocab_index(vocab_lines):
+    overall_hash = {}
+
+    for index in range(len(vocab_lines)):
+        line = vocab_lines[index].strip()
+        overall_hash[line] = index
+
+    return overall_hash
+
+
+def get_document_topics(gamma_lines):
+    return_list = []
+
+    for line in gamma_lines:
+        line = line.strip()
+        topics = [float(x) for x in line.split()]
+        indices = list(range(len(topics)))
+        indices = sorted(indices, key=lambda x: -topics[x])
+
+        line = ' '.join(map(str, indices))
+        return_list.append(line)
+
+    return return_list
+
+
+def main():
+    check_start('./test_doc_guess_algorithm.py <folder> <output> <num_topics>', 4)
+    
     # Input naming
     folder = sys.argv[1]
     output = sys.argv[2]
+    num_topics = int(sys.argv[3])
+
+    topic_order_count = [0] * num_topics
+    topic_feeling_count = [0] * num_topics
+    topic_offset_count = [0] * num_topics
 
     # File allocation
     format_file = folder + '/initial.formatted'
-    vocab_details_file = folder + '/vocab_details.json'
-    vocab_index_file = folder + '/vocab_index.json'
-    document_topics_file = folder + '/doc_topics.txt'
+    vocab_file = folder + '/initial.vocab'
+    word_assignment_file = folder + '/out/word-assignments.dat'
+    gamma_file = folder + '/out/final.gamma'
 
     # Read in required data
-    with open(vocab_details_file) as data_file:
-        vocab_details = json.load(data_file)
+    with open(vocab_file) as data_file:
+        vocab_lines = data_file.readlines()
 
-    with open(vocab_index_file) as data_file:
-        vocab_index = json.load(data_file)
+    with open(word_assignment_file) as data_file:
+        word_assignment_lines = data_file.readlines()
 
     with open(format_file) as data_file:
         format_lines = data_file.readlines()
 
-    with open(document_topics_file) as data_file:
-        topic_lines = data_file.readlines()
+    with open(gamma_file) as data_file:
+        gamma_lines = data_file.readlines()
+
+    vocab_details = get_vocab_details(vocab_lines, word_assignment_lines)
+    topic_lines = get_document_topics(gamma_lines)
+    vocab_index = get_vocab_index(vocab_lines)
 
     num_docs = len(format_lines)
 
@@ -152,7 +220,6 @@ def main():
 
         known_topics = topic_lines[index].strip().split(' ')
         document_contents = line.split('|~|')[3]
-        print(document_contents)
         document_contents = clean_line(document_contents)
         classed_doc = classify(document_contents, vocab_details, vocab_index)
 
@@ -160,27 +227,33 @@ def main():
             print(document_contents)
             continue
 
-        if compare_topics_order(classed_doc, known_topics, 1):
-            topic_order_count += 1
+        if index % 1000 == 0 and index != 0:
+            print('Snapshot: ' + str(index))
+            for i in range(1, num_topics):
+                print('\tTopics correct position %d: %s' % (i, str(topic_order_count[i] / index)))
+                print('\tTopics within range %d: %s' % (i, str(topic_feeling_count[i] / index)))
+                print('\tTopics within offset %d: %s' % (i, str(topic_offset_count[i] / index)))
 
-        if compare_topic_slice(classed_doc, known_topics, 3):
-            topic_feeling_count += 1
+        for i in range(1, len(classed_doc)):
+            if compare_topics_order(classed_doc, known_topics, i):
+                topic_order_count[i] += 1
 
-        if compare_position_offset(classed_doc, known_topics, 1):
-            topic_offset_count += 1
+            if compare_topic_slice(classed_doc, known_topics, i):
+                topic_feeling_count[i] += 1
 
-        if index % 100 == 0:
-            print(str(index))
+            if compare_position_offset(classed_doc, known_topics, i):
+                topic_offset_count[i] += 1
+
+        
+
 
     out_ptr = open(output, 'w')
-    out_ptr.write('Number of documents: ' + str(num_docs) + '\n')
-    out_ptr.write('Topics Correct: %s\n' % str(topic_order_count / num_docs))
 
-    print('Number of documents: ' + str(num_docs))
-    print('Topics Correct: ' + str(topic_order_count / num_docs))
-    print('Topics Kinda Right: ' + str(topic_feeling_count / num_docs))
-    print('Topics offset Right: ' + str(topic_offset_count  / num_docs))
-    print('\a')
+    out_ptr.write('Number of documents: ' + str(num_docs) + '\n')
+    for i in range(num_topics):
+        out_ptr.write('Topics correct position %d: %s\n' % (i, str(topic_order_count[i] / num_docs)))
+        out_ptr.write('Topics within range %d: %s\n' % (i, str(topic_feeling_count[i] / num_docs)))
+        out_ptr.write('Topics within offset %d: %s\n' % (i, str(topic_offset_count[i] / num_docs)))
 
 if __name__ == '__main__':
     main()
