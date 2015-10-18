@@ -167,7 +167,8 @@ def main():
                     new_file.write('<Topic>' + document[3] + '</Topic>\n')
                     new_file.write('<Date>' + document[0] + '</Date>\n')
                     new_file.write('<Title>' + document[1] + '</Title>\n')
-                    new_file.write('<Contents>' + document[2] + '</Contents>\n')
+                    new_file.write('<Contents>' + document[2] +
+                                   '</Contents>\n')
 
             new_file.close()
 
