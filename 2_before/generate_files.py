@@ -228,21 +228,21 @@ def correct_documents(good_vocab, documents):
 
 
 def print_corpus(documents, vocab, output):
-    output_file = open(output + '\initial.formatted', 'w')
+    output_file = open(output + '/initial.formatted', 'w')
 
     for document in documents:
         output_file.write('|~|'.join(document) + '\n')
 
     output_file.close()
 
-    output_file = open(output + '\c_lda.formatted', 'w')
+    output_file = open(output + '/c_lda.formatted', 'w')
 
     for document in documents:
         output_file.write(document[3] + '\n')
 
     output_file.close()
 
-    vocab_file = open(output + '\initial.vocab', 'w')
+    vocab_file = open(output + '/initial.vocab', 'w')
 
     for word in vocab:
         vocab_file.write("%s\n" % word)

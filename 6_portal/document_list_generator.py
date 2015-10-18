@@ -7,12 +7,13 @@ HIERARCHY = False
 
 
 def isHierarchy(folder):
+    """ (string) -> boolean
+
+    Determines if the folder name provided contains a topic hierarchy
+    """
     folder_list = os.listdir(folder)
 
-    if '0' in folder_list:
-        return True
-    else:
-        return False
+    return '0' in folder_list
 
 
 def processSingleGammaFile(gamma_file_name):
@@ -81,7 +82,12 @@ def getTopics(line, zero):
     return real_vals
 
 
-def getZero(gamma_lines):
+def getGammaBase(gamma_lines):
+    """ (list) -> float
+
+    Return the value assigned to 'nearly impossible' topic
+    matching within this gamma file
+    """
     zero = 0
     lowest_five = []
 
@@ -152,7 +158,7 @@ def processHierarchy(folder):
         gamma_lines = gamma_ptr.readlines()
         gamma_ptr.close()
 
-        zero = getZero(gamma_lines)
+        zero = getGammaBase(gamma_lines)
 
         # For each document line
         for index in range(len(format_lines)):
@@ -171,9 +177,6 @@ def processHierarchy(folder):
             document_hash[doc_id]['topics'][item] = \
                 getTopics(gamma_lines[index], zero)
             document_hash[doc_id]['article'] = article
-
-            if doc_id == "3":
-                print('index ' + str(document_hash[doc_id]['topics']))
 
     for doc in document_hash:
         document_hash[doc]['article']['topics'] = \
