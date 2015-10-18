@@ -283,14 +283,13 @@ def main():
     print('Processing corpus')
     documents = process_corpus(corpus_lines)
 
-    print(str(vocab))
     print('Getting good vocab')
     good_vocab = correct_vocab(vocab, threshold)
 
     print('Correcting documents')
     documents = correct_documents(good_vocab, documents)
 
-    print(str(documents))
+    print('Printing documents')
     print_corpus(documents, good_vocab, output_directory)
 
 

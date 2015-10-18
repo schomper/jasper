@@ -83,20 +83,31 @@ def compare_topic_slice(classed, known, cutoff):
 
 
 def compare_position_offset(classed, known, offset):
-    """ (list, list, int, int) -> boolean
+    """ (list, list, int) -> boolean
 
     Returns true if the elements within the list
     are never more than offset positions away from each other
     """
-    num_topics = 0
+    num_topics = len(classed)
 
     for index in range(num_topics):
-        if index == len(known):
-            break
-        if index == len(classed):
-            break
+        correct = False
 
-        if str(known[index]) != str(classed[index]):
+        for i in range(offset):
+            plus = index + i
+            minus = index - i
+
+            if not minus < 0:
+                if(str(classed[index]) == str(known[minus])):
+                    correct = True
+                    break
+
+            if not plus >= len(range(known)):
+                if(str(classed[index]) == str(known[plus])):
+                    correct = True
+                    break
+
+        if not correct:
             return False
 
     return True
@@ -106,6 +117,7 @@ def main():
     check_start('./test_doc_guess_algorithm.py <folder> <output>', 3)
     topic_order_count = 0
     topic_feeling_count = 0
+    topic_offset_count = 0
 
     # Input naming
     folder = sys.argv[1]
@@ -151,6 +163,9 @@ def main():
         if compare_topic_slice(classed_doc, known_topics, 3):
             topic_feeling_count += 1
 
+        if compare_position_offset(classed_doc, known_topics, 1):
+            topic_offset_count += 1
+
         if index % 100 == 0:
             print(str(index))
 
@@ -161,6 +176,7 @@ def main():
     print('Number of documents: ' + str(num_docs))
     print('Topics Correct: ' + str(topic_order_count / num_docs))
     print('Topics Kinda Right: ' + str(topic_feeling_count / num_docs))
+    print('Topics offset Right: ' + str(topic_offset_count  / num_docs))
     print('\a')
 
 if __name__ == '__main__':
