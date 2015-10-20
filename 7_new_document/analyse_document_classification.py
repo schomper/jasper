@@ -179,7 +179,7 @@ def get_document_topics(gamma_lines):
 
 def main():
     check_start('./test_doc_guess_algorithm.py <folder> <output> <num_topics>', 4)
-    
+
     # Input naming
     folder = sys.argv[1]
     output = sys.argv[2]
@@ -243,9 +243,6 @@ def main():
 
             if compare_position_offset(classed_doc, known_topics, i):
                 topic_offset_count[i] += 1
-
-        
-
 
     out_ptr = open(output, 'w')
 

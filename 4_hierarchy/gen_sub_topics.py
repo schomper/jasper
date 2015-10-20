@@ -10,14 +10,15 @@
 # ------------------------------------------------------------------------------
 
 import sys
+import os
 
 
 def write_line(pointer, index, probability, line):
-    pointer.write(index + '|~|' + probability + '|~|' + line + '\n')
+    pointer.write(str(index) + '|~|' + str(probability) + '|~|' + line + '\n')
 
 
 def lowest_topics(probability, utility, pointer, line, index):
-    if probability > utility:
+    if float(probability) > float(utility):
         write_line(pointer, index, probability, line)
 
 
@@ -33,7 +34,7 @@ def highest_val_index(unsorted_list):
     return max_index
 
 
-def write_files(format_file, gamma_file, run_type, utility):
+def write_files(input_directory, format_file, gamma_file, run_type, utility):
     output_files = []
     num_topics = 0
 
@@ -43,8 +44,13 @@ def write_files(format_file, gamma_file, run_type, utility):
     with open(gamma_file) as data_file:
         gamma_lines = data_file.readlines()
 
-    for topic_index in range(gamma_lines[0].split(' ')):
-        file_ptr = open('sub_' + str(topic_index) + '.txt', 'w')
+    for topic_index in range(len(gamma_lines[0].split(' '))):
+        directory = input_directory + '/' + str(topic_index)
+
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        file_ptr = open(directory + '/initial.formatted', 'w')
         output_files.append(file_ptr)
 
     for index in range(len(format_lines)):
@@ -55,7 +61,7 @@ def write_files(format_file, gamma_file, run_type, utility):
 
         if run_type == 'highest':
             max_index = highest_val_index(topic_values)
-            write_line(topic_values[max_index], index,
+            write_line(output_files[max_index], index,
                        topic_values[max_index], format_line)
 
         if run_type == 'lowest':
@@ -70,9 +76,10 @@ def reindex_files(directory, index):
     original_vocab = []
     new_vocab = []
 
+    print('reindexing')
     vocab_file = directory + '/initial.vocab'
-    format_file = directory + '/initial.formatted'
     group_name = directory + '/' + index + '/'
+    format_file = group_name + '/initial.formatted'
 
     with open(vocab_file, 'r') as vocab_ptr:
         original_vocab = vocab_ptr.readlines()
@@ -80,11 +87,11 @@ def reindex_files(directory, index):
     for index in range(0, len(original_vocab)):
         original_vocab[index] = original_vocab[index].strip()
 
-    vocab_out_ptr = open(group_name + 'initial.vocab', 'w')
-    format_out_ptr = open(group_name + 'initial.formatted', 'w')
-
     with open(format_file, 'r') as format_ptr:
         lines = format_ptr.readlines()
+
+    vocab_out_ptr = open(group_name + 'initial.vocab', 'w')
+    format_out_ptr = open(group_name + 'initial.formatted', 'w')
 
     for line in lines:
         line = line.strip()
@@ -112,8 +119,8 @@ def reindex_files(directory, index):
 
 
 def main():
-    if len(sys.argv) != 4:
-        print('./generate_sub_topics.py <input_directory> ' +
+    if len(sys.argv) != 5:
+        print('./generate_sub_topics.py <input_directory> <num_sub_topics>' +
               '<lowest/confidence/highest> <utility>')
         exit(1)
 
@@ -125,10 +132,9 @@ def main():
     format_file = input_directory + '/initial.formatted'
     gamma_file = input_directory + '/out/final.gamma'
 
-    num_topics = write_files(format_file, gamma_file, num_sub_topics,
-                             run_type, utility)
+    write_files(input_directory, format_file, gamma_file, run_type, utility)
 
-    for index in range(num_topics):
+    for index in range(num_sub_topics):
         reindex_files(input_directory, str(index))
 
 
